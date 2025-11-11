@@ -1,15 +1,10 @@
-![Wideshot of the chilean Andes](/Assets/wide-shot.png)
-
 # Data Journalist
 
 ### Education
 
 - BA, Hispanic Studies and Politics | Bates College (_June 2025_)
 
----
-
 ### Work Experience
----
 
 **Pulitzer Center on Crisis Reporting,**  
 _Editorial Intern_  
