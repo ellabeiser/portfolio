@@ -1,4 +1,4 @@
-![Wideshot of the chilean Andes](portfolio/Assets/wide-shot.png)
+![Wideshot of the chilean Andes](/Assets/wide-shot.png)
 
 # Data Journalist
 
@@ -6,7 +6,10 @@
 
 - BA, Hispanic Studies and Politics | Bates College (_June 2025_)
 
+---
+
 ### Work Experience
+---
 
 **Pulitzer Center on Crisis Reporting,**  
 _Editorial Intern_  
