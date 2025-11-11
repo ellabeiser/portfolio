@@ -1,4 +1,4 @@
-![Wideshot of the chilean Andes](portfolio/Assets/wide-shot)
+![Wideshot of the chilean Andes](portfolio/Assets/wide-shot.png)
 
 # Data Journalist
 
