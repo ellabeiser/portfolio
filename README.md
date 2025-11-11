@@ -1,6 +1,6 @@
-# Data Journalist
-![Tux, the Linux mascot](Documents/GitHub/portfolio/Assets/headshot.png)
+![Wideshot of the chilean Andes](/Assets/wide-shot)
 
+# Data Journalist
 
 ### Education
 
