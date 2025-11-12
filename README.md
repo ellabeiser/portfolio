@@ -4,6 +4,15 @@
 
 - BA, Hispanic Studies and Politics | Bates College (_June 2025_)
 
+### Social Media
+
+<blockquote class="instagram-media" 
+  data-instgrm-permalink="https://www.instagram.com/p/DQpMvERjxJF/?img_index=1"
+  data-instgrm-version="14">
+</blockquote>
+<script async src="//www.instagram.com/embed.js"></script>
+
+
 ### Work Experience
 
 **Pulitzer Center on Crisis Reporting,**  
