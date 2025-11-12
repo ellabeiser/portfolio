@@ -2,7 +2,7 @@
 
 ### Education
 
-- BA, Hispanic Studies and Politics | Bates College (_June 2025_)
+- BA, Hispanic Studies and Politics | Bates College _(June 2025)_
 
 ### Social Media
 <section class="insta-carousel">
