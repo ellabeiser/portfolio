@@ -5,12 +5,101 @@
 - BA, Hispanic Studies and Politics | Bates College (_June 2025_)
 
 ### Social Media
+<section class="insta-carousel">
+  <div class="carousel-container">
+    <div class="carousel">
+      <!-- Slide 1 -->
+      <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DPpU9MBD8IW/"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DQpMvERjxJF/?img_index=1"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DMgFCSYviDw/?utm_source=ig_web_copy_link&igsh=MXJxZDVqYTA5M3BtOQ%3D%3D&img_index=4"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+      <!-- Slide 3 -->
+      <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DNenWpWsrF8/?utm_source=ig_web_copy_link&igsh=dXZqOGEwbGt4N2Vi&img_index=3"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+       <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DPmMeFGjj-A/?img_index=4"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+    </div>
 
-<blockquote class="instagram-media" 
-  data-instgrm-permalink="https://www.instagram.com/p/DQpMvERjxJF/?img_index=1"
-  data-instgrm-version="14">
-</blockquote>
+    <button class="prev">←</button>
+    <button class="next">→</button>
+  </div>
+</section>
+
 <script async src="//www.instagram.com/embed.js"></script>
+<script>
+  const carousel = document.querySelector('.carousel');
+  const slides = document.querySelectorAll('.slide');
+  let currentIndex = 0;
+
+  document.querySelector('.next').addEventListener('click', () => {
+    currentIndex = (currentIndex + 1) % slides.length;
+    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+  });
+
+  document.querySelector('.prev').addEventListener('click', () => {
+    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
+  });
+</script>
+
+<style>
+.insta-carousel {
+  max-width: 500px;
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-container {
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  flex: 0 0 100%;
+}
+
+button.prev, button.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255,255,255,0.7);
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 0.3rem 0.7rem;
+  border-radius: 50%;
+}
+
+button.prev { left: 10px; }
+button.next { right: 10px; }
+</style>
 
 
 ### Work Experience
