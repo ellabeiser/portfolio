@@ -4,7 +4,13 @@
 
 - BA, Hispanic Studies and Politics | Bates College | June 2025
 
-### Written Work
+### Work Experience
+**Pulitzer Center on Crisis Reporting,**  
+_Editorial Intern_  
+_(June 2025-May 2025)_  
+- Interviewed and wrote articles in English and Spanish; produced videos using Premiere Pro and Descript.
+- Trained two days a week with the data and research team. Learned web scraping, data visualizations, map making with QGIS, spreadsheet data wrangling and supply chain tracking. 
+- Designed story pages on drupal, copy edited for AP style, clarity and flow. 
   <div class="article-card">
     <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
       <img src="Assets/starlink 9.png" alt="Uncontacted peoples">
@@ -18,7 +24,6 @@
       Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.
     </p>
   </div>
-
   <div class="article-card">
     <a href="https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track" target="_blank">
       <img src="Assets/BTS 4.webp" alt="rare earth mining">
@@ -33,16 +38,6 @@
     </p>
   </div>
 
-
-### Work Experience
-
-**Pulitzer Center on Crisis Reporting,**  
-_Editorial Intern_  
-_(June 2025-May 2025)_  
-- Interviewed and wrote articles in English and Spanish; produced videos using Premiere Pro and Descript.
-- Trained two days a week with the data and research team. Learned web scraping, data visualizations, map making with QGIS, spreadsheet data wrangling and supply chain tracking. 
-- Designed story pages on drupal, copy edited for AP style, clarity and flow. 
-
 **The Bates Student,**    
 _Editor in Chief_   
 _(September 2021-June 2025)_  
@@ -50,6 +45,47 @@ _(September 2021-June 2025)_
 - Edited and coached approximately 50 stories monthly for clarity, AP style and completion. 
 - Restarted print publication. Designed 10-page newspaper in InDesign and Photoshop monthly.
 - Published 38 articles in four years.
+
+<div class="article-card">
+    <a href="https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546" target="_blank">
+      <img src="Assets/nerf.png" alt="nerf gun">
+    </a>
+    <p>
+      <strong>
+        <a class="title" href="https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546" target="_blank">
+          Student Wins Conduct Hearing after Facing Four Years of Probation for use of a Nerf Gun
+        </a>
+      </strong>
+    </p>
+</div>
+
+<div class="article-card">
+    <a href="https://thebatesstudent.com/25954/news/busking-for-reparations-a-bid-for-repair-through-art/#live-update-26546" target="_blank">
+      <img src="Assets/brian evans.jpg" alt="busking for reparations">
+    </a>
+    <p>
+      <strong>
+        <a class="title" href="https://thebatesstudent.com/25954/news/busking-for-reparations-a-bid-for-repair-through-art/#live-update-26546" 
+        target="_blank">
+          Busking for Reparations: A Bid for Repair through Art
+        </a>
+      </strong>
+    </p>
+</div>
+
+<div class="article-card">
+    <a href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" target="_blank">
+      <img src="Assets/club removal.jpg" alt="club removal">
+    </a>
+    <p>
+      <strong>
+        <a class="title" href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" 
+        target="_blank">
+          “Easier to Remove Someone For Missing Meetings Than If They Sexually Assault Someone,” Club Leader Worries
+        </a>
+      </strong>
+    </p>
+</div>
 
 **South Side Weekly,**  
 _Fact Checker_   
@@ -70,7 +106,7 @@ _(October 2024-November 2024)_
 **WBEZ 91.5 FM,**  
 _Freelancer_  
 _(May 2024-October 2024)_  
-- Assisted in developing WBEZ/Chicago Sun-Times Elected School Board Voter Guide which won the ONA Gather Award in Community-Centered Journalism, Urban & National Focus. 
+- Assisted in developing [WBEZ/Chicago Sun-Times Elected School Board Voter Guide](https://chicago.suntimes.com/graphics/chicago-school-board/2024/voter-guide/) which won the [ONA Gather Award in Community-Centered Journalism, Urban & National Focus.](https://awards.journalists.org/entries/the-chicago-school-board-voter-guide/) 
 
 **Hyde Park Herald,**  
 _Reporting Intern_ 
