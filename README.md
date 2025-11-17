@@ -5,6 +5,32 @@
 - BA, Hispanic Studies and Politics | Bates College (_June 2025_)
 
 ### Written Work
+<style>
+  .article-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* space between cards */
+  }
+
+  .article-card {
+    flex: 1 1 calc(50% - 20px); /* two per row */
+    max-width: calc(50% - 20px);
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .article-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .article-card a.title {
+    text-decoration: none;
+    color: inherit;
+  }
+</style>
+
+<div class="article-grid">
 <div style="margin-bottom: 20px;">
   <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
     <img src="Assets/starlink 9.png" alt="Uncontacted peoples" style="width: 100%; max-width: 250px; border-radius: 8px;">
