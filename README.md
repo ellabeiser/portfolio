@@ -5,16 +5,34 @@
 - BA, Hispanic Studies and Politics | Bates College (_June 2025_)
 
 ### Written Work
-[![How Journalists Protected Uncontacted Peoples in Reporting Project](Assets/starlink 9.png)](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project)
-*Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.*
-
 <div style="margin-bottom: 20px;">
   <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
-    <img src="Assets/starlink 9.png" alt="Laguna article" style="width: 100%; max-width: 500px; border-radius: 8px;">
+    <img src="Assets/starlink 9.png" alt="Uncontacted peoples" style="width: 100%; max-width: 250px; border-radius: 8px;">
   </a>
-  <p><strong>How Journalists Protected Uncontacted Peoples in Reporting Project</strong><br>
- Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.</p>
+  <p>
+    <strong>
+      <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank" style="text-decoration: none; color: inherit;">
+        How Journalists Protected Uncontacted Peoples in Reporting Project
+      </a>
+    </strong><br>
+    Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.
+  </p>
 </div>
+
+<div style="margin-bottom: 20px;">
+  <a href="https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track" target="_blank">
+    <img src="Assets/BTS 4.webp" alt="rare earth mining" style="width: 100%; max-width: 250px; border-radius: 8px;">
+  </a>
+  <p>
+    <strong>
+      <a href="https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track" target="_blank" style="text-decoration: none; color: inherit;">
+        Behind the Story: Detour in Reporting Puts Pulitzer Center Photojournalist on the Right Track
+      </a>
+    </strong><br>
+    When Pulitzer Center grantee Kang-Chun Cheng pitched a project about the competition for access to critical minerals in Zambia’s Copperbelt, she didn’t think accessing the mines would be very difficult. 
+  </p>
+</div>
+
 
 ### Data Work
 
