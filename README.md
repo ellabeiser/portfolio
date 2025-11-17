@@ -2,107 +2,25 @@
 
 ### Education
 
-- BA, Hispanic Studies and Politics | Bates College _(June 2025)_
+- BA, Hispanic Studies and Politics | Bates College (_June 2025_)
+
+### Written Work
+[![How Journalists Protected Uncontacted Peoples in Reporting Project](images/housing-thumb.png)](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project)
+*Behind the story with journalists Daniel Biasetto and John ReidPulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future.
+
+Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.*
+
+
+### Data Work
 
 ### Social Media
-<section class="insta-carousel">
-  <div class="carousel-container">
-    <div class="carousel">
-      <!-- Slide 1 -->
-      <div class="slide">
-        <blockquote class="instagram-media" 
-          data-instgrm-permalink="https://www.instagram.com/p/DPpU9MBD8IW/"
-          data-instgrm-version="14">
-        </blockquote>
-      </div>
-      <!-- Slide 2 -->
-      <div class="slide">
-        <blockquote class="instagram-media" 
-          data-instgrm-permalink="https://www.instagram.com/p/DQpMvERjxJF/?img_index=1"
-          data-instgrm-version="14">
-        </blockquote>
-      </div>
-      <!-- Slide 3 -->
-      <div class="slide">
-        <blockquote class="instagram-media" 
-          data-instgrm-permalink="https://www.instagram.com/p/DMgFCSYviDw/?utm_source=ig_web_copy_link&igsh=MXJxZDVqYTA5M3BtOQ%3D%3D&img_index=4"
-          data-instgrm-version="14">
-        </blockquote>
-      </div>
-      <!-- Slide 4 -->
-      <div class="slide">
-        <blockquote class="instagram-media" 
-          data-instgrm-permalink="https://www.instagram.com/p/DNenWpWsrF8/?utm_source=ig_web_copy_link&igsh=dXZqOGEwbGt4N2Vi&img_index=3"
-          data-instgrm-version="14">
-        </blockquote>
-      </div>
-      <!-- Slide 5 -->
-      <div class="slide">
-        <blockquote class="instagram-media" 
-          data-instgrm-permalink="https://www.instagram.com/p/DPmMeFGjj-A/?img_index=4"
-          data-instgrm-version="14">
-        </blockquote>
-      </div>
-    </div>
-
-    <button class="prev">←</button>
-    <button class="next">→</button>
-  </div>
-</section>
-
+<blockquote class="instagram-media" 
+  data-instgrm-permalink="https://www.instagram.com/p/DQpMvERjxJF/?img_index=1"
+  data-instgrm-version="14">
+</blockquote>
 <script async src="//www.instagram.com/embed.js"></script>
-<script>
-  const carousel = document.querySelector('.carousel');
-  const slides = document.querySelectorAll('.slide');
-  let currentIndex = 0;
 
-  document.querySelector('.next').addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slides.length;
-    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-  });
-
-  document.querySelector('.prev').addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + slides.length) % slides.length;
-    carousel.style.transform = `translateX(-${currentIndex * 100}%)`;
-  });
-</script>
-
-<style>
-.insta-carousel {
-  max-width: 500px;
-  margin: 2rem auto;
-  position: relative;
-  overflow: hidden;
-}
-
-.carousel-container {
-  position: relative;
-}
-
-.carousel {
-  display: flex;
-  transition: transform 0.5s ease-in-out;
-}
-
-.slide {
-  flex: 0 0 100%;
-}
-
-button.prev, button.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background: rgba(255,255,255,0.7);
-  border: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 0.3rem 0.7rem;
-  border-radius: 50%;
-}
-
-button.prev { left: 10px; }
-button.next { right: 10px; }
-</style>
+### Video
 
 
 ### Work Experience

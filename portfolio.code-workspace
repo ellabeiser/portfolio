@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "portfolio",
+			"path": "."
+		},
+		{
+			"name": "html5up-forty",
+			"path": "../../../Downloads/html5up-forty"
+		}
+	],
+	"settings": {}
+}
