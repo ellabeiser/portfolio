@@ -1,10 +1,8 @@
-# Data Journalist
-
-### Education
+## Education
 
 - BA, Hispanic Studies and Politics | Bates College | June 2025
 
-### Work Experience
+## Work Experience
 **Pulitzer Center on Crisis Reporting,**  
 _Editorial Intern_  
 _(June 2025-May 2025)_  
@@ -118,11 +116,7 @@ _Reporting Intern_
 _(June 2023-July 2023)_  
 - Wrote 19 articles, met deadlines, coordinated with photographers. 
 
-
-### Projects
-
-
-### Awards
+## Awards
 
 **Bobcat Ventures Pitch Competition**
 - Won $15,000 prize in entrepreneurial pitch competition. Only the second time in 10 years there was a singular winner. 
@@ -143,7 +137,7 @@ _(June 2023-July 2023)_
 **Alfred J. Wright Language Award**
 - The Alfred J. Wright Foreign Language Award is given annually to one or more seniors who have completed an outstanding thesis in a foreign language. The seniors are chosen by a committee of foreign language faculty.
 
-### Skills
+## Skills
 
 **Investigative:** R, HTML, Excel, Datawrapper, Flourish, FOIA, Planet Explorer, QGIS, OSINT  
 **Languages:** English (native), Spanish (fluent), Arabic (learning)  
