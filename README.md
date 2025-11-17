@@ -12,11 +12,51 @@
 ### Data Work
 
 ### Social Media
-<blockquote class="instagram-media" 
-  data-instgrm-permalink="https://www.instagram.com/p/DQpMvERjxJF/?img_index=1"
-  data-instgrm-version="14">
-</blockquote>
-<script async src="//www.instagram.com/embed.js"></script>
+
+<section class="insta-carousel">
+  <div class="carousel-container">
+    <div class="carousel">
+      <!-- Slide 1 -->
+      <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DPpU9MBD8IW/"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+      <!-- Slide 2 -->
+      <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DQpMvERjxJF/?img_index=1"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+      <!-- Slide 3 -->
+      <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DMgFCSYviDw/?utm_source=ig_web_copy_link&igsh=MXJxZDVqYTA5M3BtOQ%3D%3D&img_index=4"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+      <!-- Slide 4 -->
+      <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DNenWpWsrF8/?utm_source=ig_web_copy_link&igsh=dXZqOGEwbGt4N2Vi&img_index=3"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+      <!-- Slide 5 -->
+      <div class="slide">
+        <blockquote class="instagram-media" 
+          data-instgrm-permalink="https://www.instagram.com/p/DPmMeFGjj-A/?img_index=4"
+          data-instgrm-version="14">
+        </blockquote>
+      </div>
+    </div>
+
+    <button class="prev">←</button>
+    <button class="next">→</button>
+  </div>
+</section>
 
 ### Video
 
