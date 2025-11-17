@@ -33,7 +33,6 @@
     </p>
   </div>
 
-</div>
 
 ### Work Experience
 
