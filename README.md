@@ -6,8 +6,15 @@
 
 ### Written Work
 [![How Journalists Protected Uncontacted Peoples in Reporting Project](Assets/starlink 9.png)](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project)
-*Behind the story with journalists Daniel Biasetto and John ReidPulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.*
+*Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.*
 
+<div style="margin-bottom: 20px;">
+  <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
+    <img src="Assets/starlink 9.png" alt="Laguna article" style="width: 100%; max-width: 500px; border-radius: 8px;">
+  </a>
+  <p><strong>How Journalists Protected Uncontacted Peoples in Reporting Project</strong><br>
+ Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.</p>
+</div>
 
 ### Data Work
 
