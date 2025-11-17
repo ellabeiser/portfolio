@@ -5,10 +5,8 @@
 - BA, Hispanic Studies and Politics | Bates College (_June 2025_)
 
 ### Written Work
-[![How Journalists Protected Uncontacted Peoples in Reporting Project](images/housing-thumb.png)](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project)
-*Behind the story with journalists Daniel Biasetto and John ReidPulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future.
-
-Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.*
+[![How Journalists Protected Uncontacted Peoples in Reporting Project](Assets/starlink 9.png)](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project)
+*Behind the story with journalists Daniel Biasetto and John ReidPulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.*
 
 
 ### Data Work
