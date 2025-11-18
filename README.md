@@ -72,17 +72,19 @@ _(September 2021-June 2025)_
 </div>
 
 <div class="article-card">
-    <a href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" target="_blank">
-      <img src="Assets/club removal.jpg" alt="club removal">
-    </a>
-    <p>
+<p>
       <strong>
+      <h2>
         <a class="title" href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" 
         target="_blank">
           “Easier to Remove Someone For Missing Meetings Than If They Sexually Assault Someone,” Club Leader Worries
         </a>
+      <h2>
       </strong>
     </p>
+    <a href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" target="_blank">
+      <img src="Assets/club removal.jpg" alt="club removal">
+    </a>
 </div>
 
 **South Side Weekly,**  
