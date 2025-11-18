@@ -1,7 +1,3 @@
----
-layout: default
----
-
 ## Education
 
 - BA, Hispanic Studies and Politics | Bates College | June 2025
@@ -13,25 +9,19 @@ _(June 2025-May 2025)_
 - Interviewed and wrote articles in English and Spanish; produced videos using Premiere Pro and Descript.
 - Trained two days a week with the data and research team. Learned web scraping, data visualizations, map making with QGIS, spreadsheet data wrangling and supply chain tracking. 
 - Designed story pages on drupal, copy edited for AP style, clarity and flow. 
-  <div class="card">
-  <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
-    <div class="img-wrapper">
+  <div class="article-card">
+    <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
       <img src="Assets/starlink 9.png" alt="Uncontacted peoples">
-      <div class="hover-title">
-        How Journalists Protected Uncontacted Peoples in Reporting Project
-      </div>
-    </div>
-  </a>
-
-  <p>
-    <strong>
-      <a class="title" href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
-        How Journalists Protected Uncontacted Peoples in Reporting Project
-      </a>
-    </strong><br>
-    Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.
-  </p>
-</div>
+    </a>
+    <p>
+      <strong>
+        <a class="title" href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
+          How Journalists Protected Uncontacted Peoples in Reporting Project
+        </a>
+      </strong><br>
+      Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.
+    </p>
+  </div>
   <div class="article-card">
     <a href="https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track" target="_blank">
       <img src="Assets/BTS 4.webp" alt="rare earth mining">
@@ -126,12 +116,6 @@ _Reporting Intern_
 _(June 2023-July 2023)_  
 - Wrote 19 articles, met deadlines, coordinated with photographers. 
 
-## Skills
-
-**Investigative:** R, HTML, Excel, Datawrapper, Flourish, FOIA, Planet Explorer, QGIS, OSINT  
-**Languages:** English (native), Spanish (fluent), Arabic (learning)  
-**Multimedia:** Adobe (Indesign, Premiere Pro, Photoshop, After Effects), Descript, Reaper, Mailchimp, Canva, Asana  
-
 ## Awards
 
 **Bobcat Ventures Pitch Competition**
@@ -153,3 +137,8 @@ _(June 2023-July 2023)_
 **Alfred J. Wright Language Award**
 - The Alfred J. Wright Foreign Language Award is given annually to one or more seniors who have completed an outstanding thesis in a foreign language. The seniors are chosen by a committee of foreign language faculty.
 
+## Skills
+
+**Investigative:** R, HTML, Excel, Datawrapper, Flourish, FOIA, Planet Explorer, QGIS, OSINT  
+**Languages:** English (native), Spanish (fluent), Arabic (learning)  
+**Multimedia:** Adobe (Indesign, Premiere Pro, Photoshop, After Effects), Descript, Reaper, Mailchimp, Canva, Asana  
