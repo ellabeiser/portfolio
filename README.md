@@ -81,6 +81,8 @@ As a Vote Entry Operator, I inputted vote totals from stringers calling in on el
 _Freelancer_  
 I assisted in developing the [WBEZ/Chicago Sun-Times Elected School Board Voter Guide](https://chicago.suntimes.com/graphics/chicago-school-board/2024/voter-guide/) which won the [ONA Gather Award in Community-Centered Journalism, Urban & National Focus.](https://awards.journalists.org/entries/the-chicago-school-board-voter-guide/) 
 
+---
+
 ## Awards
 
 **Bobcat Ventures Pitch Competition**
@@ -100,6 +102,8 @@ This award is given annually to one student for exceptional work related to the 
 
 **Alfred J. Wright Language Award**
 The Language Award is given annually to one or more seniors who have completed an outstanding thesis in a foreign language. The seniors are chosen by a committee of foreign language faculty.
+
+---
 
 ## Skills
 
