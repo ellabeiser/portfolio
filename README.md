@@ -3,40 +3,53 @@
 - BA, Hispanic Studies and Politics | Bates College | June 2025
 
 ## Work Experience
-**Pulitzer Center on Crisis Reporting,**  
+**Pulitzer Center on Crisis Reporting**  
 _Editorial Intern_  
 _(June 2025-May 2025)_  
 - Interviewed and wrote articles in English and Spanish; produced videos using Premiere Pro and Descript.
 - Trained two days a week with the data and research team. Learned web scraping, data visualizations, map making with QGIS, spreadsheet data wrangling and supply chain tracking. 
 - Designed story pages on drupal, copy edited for AP style, clarity and flow. 
-  <div class="article-card">
-    <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
-      <img src="Assets/starlink 9.png" alt="Uncontacted peoples">
-    </a>
-    <p>
-      <strong>
-        <a class="title" href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
-          How Journalists Protected Uncontacted Peoples in Reporting Project
-        </a>
-      </strong><br>
-      Pulitzer Center grantee John Reid said reporting on uncontacted peoples in the Amazon basin gives him hope for the future. Reid and fellow grantee Daniel Biasetto reported on uncontacted groups of people living between Peru and Brazil who are being pushed off their land by loggers and climate change.
-    </p>
-  </div>
-  <div class="article-card">
-    <a href="https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track" target="_blank">
-      <img src="Assets/BTS 4.webp" alt="rare earth mining">
-    </a>
-    <p>
-      <strong>
-        <a class="title" href="https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track" target="_blank">
-          Behind the Story: Detour in Reporting Puts Pulitzer Center Photojournalist on the Right Track
-        </a>
-      </strong><br>
-      When Pulitzer Center grantee Kang-Chun Cheng pitched a project about the competition for access to critical minerals in Zambia’s Copperbelt, she didn’t think accessing the mines would be very difficult.
-    </p>
-  </div>
 
-**The Bates Student,**    
+Clips
+<ul>
+  <li>
+    <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
+      "How Journalists Protected Uncontacted Peoples in Reporting Project"
+    </a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="https://www.instagram.com/p/DPpU9MBD8IW/" target="_blank">
+    Adaptation of previous story into vertical video for Instagram. Tools included Descript and Adobe Premiere Pro.
+    </a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track" target="_blank">
+      "Detour in Reporting Puts Pulitzer Center Photojournalist on the Right Track"
+    </a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="https://e360.yale.edu/features/myanmar-rare-earth-mining" target="_blank">
+    Data work for: "In Myanmar, Illicit Rare Earth Mining Is Taking a Heavy Toll". Mapped expansion of rare earth mining in Myanmar as part of work with Data and Research team. Tools included QGIS and Datawrapper.
+    </a>
+  </li>
+</ul>
+<ul>
+  <li>
+    <a href="https://pulitzercenter.org/blog/kenyan-officials-call-change-after-pulitzer-center-grantees-report-rapists-going-free" target="_blank">
+    "Kenyan Officials Call for Change After Pulitzer Center Grantee's Report on Rapists Going Free"
+    </a>
+  </li>
+</ul>
+
+---
+
+**The Bates Student**    
 _Editor in Chief_   
 _(September 2021-June 2025)_  
 - Made final editorial decisions and educated staff on potential journalism ethics violations. 
@@ -44,79 +57,114 @@ _(September 2021-June 2025)_
 - Restarted print publication. Designed 10-page newspaper in InDesign and Photoshop monthly.
 - Published 38 articles in four years.
 
-<div class="article-card">
+Clips
+<ul>
+  <li>
     <a href="https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546" target="_blank">
-      <img src="Assets/nerf.png" alt="nerf gun">
+    "Student Wins Conduct Hearing after Facing Four Years of Probation for use of a Nerf Gun"
     </a>
-    <p>
-      <strong>
-        <a class="title" href="https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546" target="_blank">
-          Student Wins Conduct Hearing after Facing Four Years of Probation for use of a Nerf Gun
-        </a>
-      </strong>
-    </p>
-</div>
-
-<div class="article-card">
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="https://thebatesstudent.com/25954/news/busking-for-reparations-a-bid-for-repair-through-art/#live-update-26546" target="_blank">
-      <img src="Assets/brian evans.jpg" alt="busking for reparations">
+    "Busking for Reparations: A Bid for Repair through Art"
     </a>
-    <p>
-      <strong>
-        <a class="title" href="https://thebatesstudent.com/25954/news/busking-for-reparations-a-bid-for-repair-through-art/#live-update-26546" 
-        target="_blank">
-          Busking for Reparations: A Bid for Repair through Art
-        </a>
-      </strong>
-    </p>
-</div>
-
-<div class="article-card">
-<p>
-      <strong>
-      <h2>
-        <a class="title" href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" 
-        target="_blank">
-          “Easier to Remove Someone For Missing Meetings Than If They Sexually Assault Someone,” Club Leader Worries
-        </a>
-      <h2>
-      </strong>
-    </p>
+  </li>
+</ul>
+<ul>
+  <li>
     <a href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" target="_blank">
-      <img src="Assets/club removal.jpg" alt="club removal">
+    "'Easier to Remove Someone For Missing Meetings Than If They Sexually Assault Someone,' Club Leader Worries"
     </a>
-</div>
+  </li>
+</ul>
 
-**South Side Weekly,**  
-_Fact Checker_   
-_(June 2022-present)_  
-- Read assigned stories, checked accuracy of every fact in the story. 
-
-**City Bureau Documenters Program,**   
-_Documenter_  
-_(April 2022-present)_  
-- Attended public meetings and consolidated notes into memos on a deadline to increase public transparency.
-
-**Associated Press,**  
-_Vote Entry Operator_  
-_(October 2024-November 2024)_  
-- Inputted vote totals from stringers and websites in counties and cities nationwide, for newspaper, broadcast and internet.
-- Reported totals efficiently and accurately.
-
-**WBEZ 91.5 FM,**  
-_Freelancer_  
-_(May 2024-October 2024)_  
-- Assisted in developing [WBEZ/Chicago Sun-Times Elected School Board Voter Guide](https://chicago.suntimes.com/graphics/chicago-school-board/2024/voter-guide/) which won the [ONA Gather Award in Community-Centered Journalism, Urban & National Focus.](https://awards.journalists.org/entries/the-chicago-school-board-voter-guide/) 
+---
 
 **Hyde Park Herald,**  
 _Reporting Intern_ 
 _(May 2024-August 2024)_  
 - Wrote, interviewed and researched 17 stories. Interviews conducted in both English and Spanish.
 
+Clips
+<ul>
+  <li>
+    <a href="https://www.hpherald.com/evening_digest/south-shore-housing-protections-need-broader-support-leaders-say/article_e78360e6-3261-11ef-8783-a7924644900b.html" target="_blank">
+    "South Shore housing protections need broader support, leaders say"
+    </a>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <a href="https://www.hpherald.com/evening_digest/as-church-attendance-declines-nationwide-local-pastors-get-creative-with-vacant-space/article_4dbacd64-3fc7-11ef-a44a-4bef82966b96.html" target="_blank">
+    "As church attendance declines nationwide, local pastors get creative with vacant space"
+    </a>
+  </li>
+</ul>
+
+---
+
 **Lewiston Sun Journal,**  
 _Reporting Intern_  
 _(June 2023-July 2023)_  
 - Wrote 19 articles, met deadlines, coordinated with photographers. 
+
+Clips
+<ul>
+  <li>
+    <a href="https://media.journoportfolio.com/users/433213/uploads/015a93c2-dcf0-4b42-b60c-b67f7161b824.pdf" target="_blank">
+    "Feeling well grounded in Lewiston: How 2 Afghan pilots came to Lewiston"
+    </a>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <a href="https://media.journoportfolio.com/users/433213/uploads/56dbb9e0-7efb-4037-85a7-cdc112734b2b.pdf" target="_blank">
+    "From Afghanistan to Maine: How Nazifa Haidari and 2 of her children came to Lewiston"
+    </a>
+  </li>
+</ul>
+
+<ul>
+  <li>
+    <a href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" target="_blank">
+    "'Easier to Remove Someone For Missing Meetings Than If They Sexually Assault Someone,' Club Leader Worries"
+    </a>
+  </li>
+</ul>
+
+---
+
+**South Side Weekly**  
+_Fact Checker_   
+_(June 2022-present)_  
+- Read assigned stories, checked accuracy of every fact in the story. 
+
+---
+
+**City Bureau Documenters Program**   
+_Documenter_  
+_(April 2022-present)_  
+- Attended public meetings and consolidated notes into memos on a deadline to increase public transparency.
+
+---
+
+**Associated Press**  
+_Vote Entry Operator_  
+_(October 2024-November 2024)_  
+- Inputted vote totals from stringers and websites in counties and cities nationwide, for newspaper, broadcast and internet.
+- Reported totals efficiently and accurately.
+
+---
+
+**WBEZ 91.5 FM,**  
+_Freelancer_  
+_(May 2024-October 2024)_  
+- Assisted in developing [WBEZ/Chicago Sun-Times Elected School Board Voter Guide](https://chicago.suntimes.com/graphics/chicago-school-board/2024/voter-guide/) which won the [ONA Gather Award in Community-Centered Journalism, Urban & National Focus.](https://awards.journalists.org/entries/the-chicago-school-board-voter-guide/) 
+
 
 ## Awards
 
@@ -141,6 +189,6 @@ _(June 2023-July 2023)_
 
 ## Skills
 
-**Investigative:** R, HTML, Excel, Datawrapper, Flourish, FOIA, Planet Explorer, QGIS, OSINT  
+**Investigative:** R, HTML, Excel, Datawrapper, Flourish, FOIA, Planet Explorer, QGIS  
 **Languages:** English (native), Spanish (fluent), Arabic (learning)  
-**Multimedia:** Adobe (Indesign, Premiere Pro, Photoshop, After Effects), Descript, Reaper, Mailchimp, Canva, Asana  
+**Multimedia:** Adobe (InDesign, Premiere Pro, Photoshop, After Effects), Descript, Reaper, Mailchimp, Canva, Asana
