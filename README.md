@@ -4,6 +4,8 @@
 
 **_I can be reached at my email, ellabeiser606@gmail.com._**
 
+---
+
 ## Education
 
 - BA, Political Science and Hispanic Studies | Bates College | June 2025
