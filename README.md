@@ -1,8 +1,8 @@
-**_I'm a bilingual journalist living between my hometown Chicago and Santiago, Cl. I'm fascinated by stories that reveal a hidden undercurrent in a community and that draw people closer to one another_**
+**I'm a bilingual journalist living between my hometown Chicago and Santiago, Cl. I'm fascinated by stories that reveal a hidden undercurrent in a community and that draw people closer to one another**
 
-**_I'm skilled in Spanish–English translation, data wrangling, map making and community building._**
+**I'm skilled in Spanish–English translation, data wrangling, map making and community building.**
 
-**_I can be reached at my email, ellabeiser606@gmail.com._**
+**I can be reached at my email, ellabeiser606@gmail.com.**
 
 ---
 
