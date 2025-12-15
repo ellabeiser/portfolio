@@ -8,7 +8,7 @@
 
 ## Education
 
-- BA, Political Science and Hispanic Studies | Bates College | June 2025
+BA, Political Science and Hispanic Studies | Bates College | June 2025
 
 ## Work Experience
 **Pulitzer Center on Crisis Reporting**, Remote  _(June 2025-May 2025)_  
