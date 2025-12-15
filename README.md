@@ -1,191 +1,110 @@
+I'm a bilingual journalist living between my hometown Chicago and Santiago, Cl. I'm fascinated by stories that reveal a hidden undercurrent in a community and that draw people closer to one another.
+
+I'm skilled in Spanish–English translation, data wrangling, map making and community building. 
+
+I can be reached at my email, ellabeiser606@gmail.com.
+
 ## Education
 
-- BA, Hispanic Studies and Politics | Bates College | June 2025
+- BA, Political Science and Hispanic Studies | Bates College | June 2025
 
 ## Work Experience
-**Pulitzer Center on Crisis Reporting**  
+**Pulitzer Center on Crisis Reporting**, Remote  _(June 2025-May 2025)_  
 _Editorial Intern_  
-_(June 2025-May 2025)_  
-- Interviewed and wrote articles in English and Spanish; produced videos using Premiere Pro and Descript.
-- Trained two days a week with the data and research team. Learned web scraping, data visualizations, map making with QGIS, spreadsheet data wrangling and supply chain tracking. 
-- Designed story pages on drupal, copy edited for AP style, clarity and flow. 
+At the Pulitzer Center I worked primarily with the publishing team, copy editing for AP style and clarity. I interviewed Pulitzer Center grantees in English and Spanish about their reporting process and spent time designing social media posts and videos to promote the content. I trained two days a week with the data and research team where I learned basic open source research techniques and honed my data wrangling, vizualization and mapmaking skills.
 
-Clips
-<ul>
-  <li>
-    <a href="https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project" target="_blank">
-      "How Journalists Protected Uncontacted Peoples in Reporting Project"
-    </a>
-  </li>
-</ul>
-<ul>
-  <li>
-    <a href="https://www.instagram.com/p/DPpU9MBD8IW/" target="_blank">
-    Adaptation of previous story into vertical video for Instagram. Tools included Descript and Adobe Premiere Pro.
-    </a>
-  </li>
-</ul>
-<ul>
-  <li>
-    <a href="https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track" target="_blank">
-      "Detour in Reporting Puts Pulitzer Center Photojournalist on the Right Track"
-    </a>
-  </li>
-</ul>
-<ul>
-  <li>
-    <a href="https://e360.yale.edu/features/myanmar-rare-earth-mining" target="_blank">
-    Data work for: "In Myanmar, Illicit Rare Earth Mining Is Taking a Heavy Toll". Mapped expansion of rare earth mining in Myanmar as part of work with Data and Research team. Tools included QGIS and Datawrapper.
-    </a>
-  </li>
-</ul>
-<ul>
-  <li>
-    <a href="https://pulitzercenter.org/blog/kenyan-officials-call-change-after-pulitzer-center-grantees-report-rapists-going-free" target="_blank">
-    "Kenyan Officials Call for Change After Pulitzer Center Grantee's Report on Rapists Going Free"
-    </a>
-  </li>
-</ul>
+- ["How Journalists Protected Uncontacted Peoples in Reporting Project"](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project)
+- VIDEO: [Adaptation](https://www.instagram.com/p/DPpU9MBD8IW/) of previous story into vertical video for Instagram. Tools included Descript and Adobe Premiere Pro.
+- ["Detour in Reporting Puts Pulitzer Center Photojournalist on the Right Track"](https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track)
+- DATA: ["In Myanmar, Illicit Rare Earth Mining Is Taking a Heavy Toll"](https://e360.yale.edu/features/myanmar-rare-earth-mining). Mapped expansion of rare earth mining in Myanmar as part of work with Data and Research team. Tools included QGIS and Datawrapper.
+- ["Kenyan Officials Call for Change After Pulitzer Center Grantee's Report on Rapists Going Free"](https://pulitzercenter.org/blog/kenyan-officials-call-change-after-pulitzer-center-grantees-report-rapists-going-free)
 
 ---
 
-**The Bates Student**    
+**The Bates Student**, Bates College _(September 2023-June 2025)_  
 _Editor in Chief_   
-_(September 2021-June 2025)_  
-- Made final editorial decisions and educated staff on potential journalism ethics violations. 
-- Edited and coached approximately 50 stories monthly for clarity, AP style and completion. 
-- Restarted print publication. Designed 10-page newspaper in InDesign and Photoshop monthly.
-- Published 38 articles in four years.
+At _The Student_, I managed a 21-person staff. In the absence of a faculty advisor or a journalism program at our college, I made final editorial decisions and designed and led consistent training programs for incoming writers. On average, I edited and coached approximately 50 stories per month. During my junior year, I revived our print publication, which had lapsed during the pandemic, and trained staff in Adobe InDesign and Photoshop. Over my four years at the paper, I also published 38 articles of my own.
 
-Clips
-<ul>
-  <li>
-    <a href="https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546" target="_blank">
-    "Student Wins Conduct Hearing after Facing Four Years of Probation for use of a Nerf Gun"
-    </a>
-  </li>
-</ul>
-<ul>
-  <li>
-    <a href="https://thebatesstudent.com/25954/news/busking-for-reparations-a-bid-for-repair-through-art/#live-update-26546" target="_blank">
-    "Busking for Reparations: A Bid for Repair through Art"
-    </a>
-  </li>
-</ul>
-<ul>
-  <li>
-    <a href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" target="_blank">
-    "'Easier to Remove Someone For Missing Meetings Than If They Sexually Assault Someone,' Club Leader Worries"
-    </a>
-  </li>
-</ul>
+During my senior year at the paper, the SPLC published revised guidelines on "take-down" requests due to increased risks to international students. In response I reached out to other student newspapers and organized weekly meetings to discuss changes and challenges we were facing. 
+
+- ["Student Wins Conduct Hearing after Facing Four Years of Probation for use of a Nerf Gun"](https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546)
+- ["Busking for Reparations: A Bid for Repair through Art"](https://thebatesstudent.com/25954/news/busking-for-reparations-a-bid-for-repair-through-art/#live-update-26546)
+- ["'Easier to Remove Someone For Missing Meetings Than If They Sexually Assault Someone,' Club Leader Worries"](https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546)
 
 ---
 
 **Hyde Park Herald,**  
 _Reporting Intern_ 
 _(May 2024-August 2024)_  
-- Wrote, interviewed and researched 17 stories. Interviews conducted in both English and Spanish.
+In the summer of 2024 I returned home to Chicago where I worked for a small publication on the South Side of Chicago. Over the course of the summer I researched, interviewed and wrote 17 stories, conducting interviews in Spanish with Venezuelan immigrants new to the city.
 
-Clips
-<ul>
-  <li>
-    <a href="https://www.hpherald.com/evening_digest/south-shore-housing-protections-need-broader-support-leaders-say/article_e78360e6-3261-11ef-8783-a7924644900b.html" target="_blank">
-    "South Shore housing protections need broader support, leaders say"
-    </a>
-  </li>
-</ul>
-
-<ul>
-  <li>
-    <a href="https://www.hpherald.com/evening_digest/as-church-attendance-declines-nationwide-local-pastors-get-creative-with-vacant-space/article_4dbacd64-3fc7-11ef-a44a-4bef82966b96.html" target="_blank">
-    "As church attendance declines nationwide, local pastors get creative with vacant space"
-    </a>
-  </li>
-</ul>
+- ["South Shore housing protections need broader support, leaders say"](https://www.hpherald.com/evening_digest/south-shore-housing-protections-need-broader-support-leaders-say/article_e78360e6-3261-11ef-8783-a7924644900b.html)
+- [As church attendance declines nationwide, local pastors get creative with vacant space](https://www.hpherald.com/evening_digest/as-church-attendance-declines-nationwide-local-pastors-get-creative-with-vacant-space/article_4dbacd64-3fc7-11ef-a44a-4bef82966b96.html)
 
 ---
 
 **Lewiston Sun Journal,**  
 _Reporting Intern_  
 _(June 2023-July 2023)_  
-- Wrote 19 articles, met deadlines, coordinated with photographers. 
+The _Lewiston Sun Journal_ is a long-running daily newspaper in Maine. It was my first formal reporting internship, during which I published 19 articles on topics ranging from Afghan immigration and a newly opened Amish farm store to the migration habits of Maine moose.
 
-Clips
-<ul>
-  <li>
-    <a href="https://media.journoportfolio.com/users/433213/uploads/015a93c2-dcf0-4b42-b60c-b67f7161b824.pdf" target="_blank">
-    "Feeling well grounded in Lewiston: How 2 Afghan pilots came to Lewiston"
-    </a>
-  </li>
-</ul>
+- ["Feeling well grounded in Lewiston: How 2 Afghan pilots came to Lewiston"](https://media.journoportfolio.com/users/433213/uploads/015a93c2-dcf0-4b42-b60c-b67f7161b824.pdf)
+- ["From Afghanistan to Maine: How Nazifa Haidari and 2 of her children came to Lewiston"](https://media.journoportfolio.com/users/433213/uploads/56dbb9e0-7efb-4037-85a7-cdc112734b2b.pdf)
 
-<ul>
-  <li>
-    <a href="https://media.journoportfolio.com/users/433213/uploads/56dbb9e0-7efb-4037-85a7-cdc112734b2b.pdf" target="_blank">
-    "From Afghanistan to Maine: How Nazifa Haidari and 2 of her children came to Lewiston"
-    </a>
-  </li>
-</ul>
+---
 
-<ul>
-  <li>
-    <a href="https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546" target="_blank">
-    "'Easier to Remove Someone For Missing Meetings Than If They Sexually Assault Someone,' Club Leader Worries"
-    </a>
-  </li>
-</ul>
+**Neighbors United for Mutual Support**  
+_Volunteer_   
+_(June 2025-present)_  
+I volunteer as a translator at a legal clinic on the South Side of Chicago. They provide free and subsidized legal aid to asylum seekers. Working with them I've translated legal documents and personal narratives.
 
 ---
 
 **South Side Weekly**  
 _Fact Checker_   
 _(June 2022-present)_  
-- Read assigned stories, checked accuracy of every fact in the story. 
+The _South Side Weekly_ is an investigative hub embedded in the South Side of Chicago where I have sporatically freelanced. However, the bulk of my work with them has been fact checking.
 
 ---
 
 **City Bureau Documenters Program**   
 _Documenter_  
 _(April 2022-present)_  
-- Attended public meetings and consolidated notes into memos on a deadline to increase public transparency.
+The Documenters program trains city residents to attend public meetings and take detailed notes to increase transparency and accountability. The notes are used by a variety of news and social organizations.
 
 ---
 
 **Associated Press**  
 _Vote Entry Operator_  
 _(October 2024-November 2024)_  
-- Inputted vote totals from stringers and websites in counties and cities nationwide, for newspaper, broadcast and internet.
-- Reported totals efficiently and accurately.
+As a Vote Entry Operator, I inputted vote totals from stringers calling in on election night. 
 
 ---
 
 **WBEZ 91.5 FM,**  
 _Freelancer_  
 _(May 2024-October 2024)_  
-- Assisted in developing [WBEZ/Chicago Sun-Times Elected School Board Voter Guide](https://chicago.suntimes.com/graphics/chicago-school-board/2024/voter-guide/) which won the [ONA Gather Award in Community-Centered Journalism, Urban & National Focus.](https://awards.journalists.org/entries/the-chicago-school-board-voter-guide/) 
-
+I assisted in developing the [WBEZ/Chicago Sun-Times Elected School Board Voter Guide](https://chicago.suntimes.com/graphics/chicago-school-board/2024/voter-guide/) which won the [ONA Gather Award in Community-Centered Journalism, Urban & National Focus.](https://awards.journalists.org/entries/the-chicago-school-board-voter-guide/) 
 
 ## Awards
 
 **Bobcat Ventures Pitch Competition**
-- Won $15,000 prize in entrepreneurial pitch competition. Only the second time in 10 years there was a singular winner. 
-- Pitched The Campus Reporting Network, as described above.   
+I competed in an won $15,000 in an [entrepreneurial pitch competition] (https://www.bates.edu/bobcat-ventures/) . My project, titled the Campus Reporting Network, aimed to create a searchable, open source database to compare student discipline policies across colleges.
 
 **Investigative Reporters & Editors Fellowship**
-- Awarded fellowship to attend their annual conference AccessFest and received a year-long membership to IRE. 
+I was awarded fellowship to attend the IRE annual conference AccessFest and received a year-long membership. 
 
 **Barlow Thesis Research Grant**
-- Fully funded research grant to travel to Santiago, CL where I conducted research at the national archive on author and activist Pedro Lemebel and the Yeguas del Apocalipsis.
+I received a fully funded grant to travel to Santiago, CL where I conducted research at the national archive on author and activist Pedro Lemebel and the Yeguas del Apocalipsis.
 
 **Bates College: College Key**
-- Awarded to 5% of graduating class by nomination, based on a student’s excellence and leadership in academic and extra-curricular work and service to the campus and community.
+I received the College Key award which is given to the top 5% of the graduating class by facult nomination, based on a student’s excellence and leadership in academic and extra-curricular work and service to the campus and community.
 
 **Robert S. Moyer Award for the Prevention of Domestic Violence**
-- Awarded annually to one student for exceptional work related to the prevention of domestic violence.
+This award is given annually to one student for exceptional work related to the prevention of domestic violence.
 
 **Alfred J. Wright Language Award**
-- The Alfred J. Wright Foreign Language Award is given annually to one or more seniors who have completed an outstanding thesis in a foreign language. The seniors are chosen by a committee of foreign language faculty.
+The Language Award is given annually to one or more seniors who have completed an outstanding thesis in a foreign language. The seniors are chosen by a committee of foreign language faculty.
 
 ## Skills
 
