@@ -1,4 +1,4 @@
-**I'm a bilingual journalist living between my hometown Chicago and Santiago, Cl. I'm fascinated by stories that reveal a hidden undercurrent in a community and that draw people closer to one another**
+**I'm a bilingual journalist living between my hometown Chicago and Santiago, Chile. I'm driven by stories that reveal hidden undercurrents and draw people closer to one another.**
 
 **I'm skilled in Spanish–English translation, data wrangling, map making and community building.**
 
