@@ -11,6 +11,7 @@
 ## Work Experience
 
 **Pulitzer Center on Crisis Reporting**, Remote, June 2025-May 2025
+
 _Editorial Intern_  
 At the Pulitzer Center I worked primarily with the publishing team, copy editing for AP style and clarity. I interviewed Pulitzer Center grantees in English and Spanish about their reporting process and spent time designing social media posts and videos to promote the content. I trained two days a week with the data and research team where I learned basic open source research techniques and honed my data wrangling, visualization and mapmaking skills.
 
