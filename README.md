@@ -2,8 +2,6 @@
 
 **I'm skilled in Spanish–English translation, data wrangling and map making.**
 
-**I enjoy bringing people together to create community around a shared interest in community issues.**
-
 **I can be reached at my email, ellabeiser606@gmail.com.**
 
 ---
