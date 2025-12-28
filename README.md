@@ -10,7 +10,7 @@
 
 **Pulitzer Center on Crisis Reporting**, Remote, June 2025-May 2025
 _Editorial Intern_  
-At the Pulitzer Center I worked primarily with the publishing team, copy editing for AP style and clarity. I interviewed Pulitzer Center grantees in English and Spanish about their reporting process and spent time designing social media posts and videos to promote the content. I trained two days a week with the data and research team where I learned basic open source research techniques and honed my data wrangling, vizualization and mapmaking skills.
+At the Pulitzer Center I worked primarily with the publishing team, copy editing for AP style and clarity. I interviewed Pulitzer Center grantees in English and Spanish about their reporting process and spent time designing social media posts and videos to promote the content. I trained two days a week with the data and research team where I learned basic open source research techniques and honed my data wrangling, visualization and mapmaking skills.
 
 - ["How Journalists Protected Uncontacted Peoples in Reporting Project"](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project)
 - VIDEO: [Adaptation](https://www.instagram.com/p/DPpU9MBD8IW/) of previous story into vertical video for Instagram. Tools included Descript and Adobe Premiere Pro.
