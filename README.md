@@ -1,4 +1,4 @@
-## Articles
+## Clips
 
 - [What South American Forests Reveal When Journalists Report Across Borders](https://pulitzercenter.org/blog/behind-story-what-south-american-forests-reveal-when-journalists-report-across-borders)
 - [Lo que revelan los bosques sudamericanos cuando los periodistas informan a través de las fronteras](https://pulitzercenter.org/es/blog/detras-de-la-historia-lo-que-revelan-los-bosques-sudamericanos-cuando-los-periodistas-informan)
@@ -6,7 +6,6 @@
 - [Cómo dos periodistas protegieron a pueblos aislados en un proyecto periodístico](https://pulitzercenter.org/es/blog/detras-de-la-historia-como-dos-periodistas-protegieron-pueblos-aislados-en-un-proyecto)
 - [Video adaptation](https://www.instagram.com/p/DPpU9MBD8IW/)
 - ["Detour in Reporting Puts Pulitzer Center Photojournalist on the Right Track"](https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track)
-- ["In Myanmar, Illicit Rare Earth Mining Is Taking a Heavy Toll"](https://e360.yale.edu/features/myanmar-rare-earth-mining). Mapped expansion of rare earth mining in Myanmar as part of work with Data and Research team. Tools included QGIS and Datawrapper.
 - ["Kenyan Officials Call for Change After Pulitzer Center Grantee's Report on Rapists Going Free"](https://pulitzercenter.org/blog/kenyan-officials-call-change-after-pulitzer-center-grantees-report-rapists-going-free)
 - ["Student Wins Conduct Hearing after Facing Four Years of Probation for use of a Nerf Gun"](https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546)
 - ["Busking for Reparations: A Bid for Repair through Art"](https://thebatesstudent.com/25954/news/busking-for-reparations-a-bid-for-repair-through-art/#live-update-26546)
