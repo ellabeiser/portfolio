@@ -4,7 +4,7 @@
 - [Lo que revelan los bosques sudamericanos cuando los periodistas informan a través de las fronteras](https://pulitzercenter.org/es/blog/detras-de-la-historia-lo-que-revelan-los-bosques-sudamericanos-cuando-los-periodistas-informan) | Pulitzer Center
 - ["How Journalists Protected Uncontacted Peoples in Reporting Project"](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project) | Pulitzer Center
 - [Cómo dos periodistas protegieron a pueblos aislados en un proyecto periodístico](https://pulitzercenter.org/es/blog/detras-de-la-historia-como-dos-periodistas-protegieron-pueblos-aislados-en-un-proyecto) | Pulitzer Center
-- [How Journalists Protected Uncontacted Peoples in Reporting Project (video)](https://www.instagram.com/p/DPpU9MBD8IW/)| Pulitzer Center
+- [How Journalists Protected Uncontacted Peoples in Reporting Project (video)](https://www.instagram.com/p/DPpU9MBD8IW/) | Pulitzer Center
 - ["Detour in Reporting Puts Pulitzer Center Photojournalist on the Right Track"](https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track) | Pulitzer Center
 - ["Student Wins Conduct Hearing after Facing Four Years of Probation for use of a Nerf Gun"](https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546) | _The Bates Student_
 - [Proposed Discipline Procedures would Remove Live Hearing](https://thebatesstudent.com/27350/news/proposed-discipline-procedures-would-remove-live-hearing/) | _The Bates Student_
