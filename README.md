@@ -66,10 +66,10 @@ I volunteer as a translator at a legal clinic on the South Side of Chicago. They
 
 ---
 
-**South Side Weekly** | Chicago, IL |June 2022-present 
+**South Side Weekly** | Chicago, IL | June 2022-present 
 _Fact Checker_   
 
-The _South Side Weekly_ is an investigative hub embedded in the South Side of Chicago where I have sporadically freelanced. However, the bulk of my work with them has been fact checking.
+The _South Side Weekly_ is an investigative hub embedded in the South Side of Chicago where I work as a trained fact checker. 
 
 ---
 
