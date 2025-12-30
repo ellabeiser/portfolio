@@ -106,13 +106,13 @@ BA, Political Science and Hispanic Studies | Bates College | June 2025
 I competed in an won $15,000 in an [entrepreneurial pitch competition](https://www.bates.edu/bobcat-ventures/) . My project, titled the Campus Reporting Network, aimed to create a searchable, open source database to compare student discipline policies across colleges.
 
 **Investigative Reporters & Editors Fellowship**
-I was awarded fellowship to attend the IRE annual conference AccessFest and received a year-long membership. 
+Fellowship to attend their AccessFest conference and received a year-long membership to IRE.
 
 **Barlow Thesis Research Grant**
 I received a fully funded grant to travel to Santiago, CL where I conducted research at the national archive on author and activist Pedro Lemebel and the Yeguas del Apocalipsis.
 
 **Bates College: College Key**
-I received the College Key award which is given to the top 5% of the graduating class by facult nomination, based on a student’s excellence and leadership in academic and extra-curricular work and service to the campus and community.
+Awarded to 5% of graduating class by nomination, based on a student’s excellence and leadership in academic and extra-curricular work and service to the campus and community.
 
 **Robert S. Moyer Award for the Prevention of Domestic Violence**
 This award is given annually to one student for exceptional work related to the prevention of domestic violence.
