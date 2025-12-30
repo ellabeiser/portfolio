@@ -15,10 +15,13 @@
 _Editorial Intern_  
 At the Pulitzer Center I worked primarily with the publishing team, copy editing for AP style and clarity. I interviewed Pulitzer Center grantees in English and Spanish about their reporting process and spent time designing social media posts and videos to promote the content. I trained two days a week with the data and research team where I learned basic open source research techniques and honed my data wrangling, visualization and mapmaking skills.
 
+- [What South American Forests Reveal When Journalists Report Across Borders](https://pulitzercenter.org/blog/behind-story-what-south-american-forests-reveal-when-journalists-report-across-borders)
+    - [Spanish version](https://pulitzercenter.org/blog/behind-story-what-south-american-forests-reveal-when-journalists-report-across-borders)
 - ["How Journalists Protected Uncontacted Peoples in Reporting Project"](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project)
-- VIDEO: [Adaptation](https://www.instagram.com/p/DPpU9MBD8IW/) of previous story into vertical video for Instagram. Tools included Descript and Adobe Premiere Pro.
+    - [Spanish version](https://pulitzercenter.org/es/blog/detras-de-la-historia-como-dos-periodistas-protegieron-pueblos-aislados-en-un-proyecto)
+    - [Video adaptation](https://www.instagram.com/p/DPpU9MBD8IW/)
 - ["Detour in Reporting Puts Pulitzer Center Photojournalist on the Right Track"](https://pulitzercenter.org/blog/behind-story-detour-reporting-puts-pulitzer-center-photojournalist-right-track)
-- DATA: ["In Myanmar, Illicit Rare Earth Mining Is Taking a Heavy Toll"](https://e360.yale.edu/features/myanmar-rare-earth-mining). Mapped expansion of rare earth mining in Myanmar as part of work with Data and Research team. Tools included QGIS and Datawrapper.
+- ["In Myanmar, Illicit Rare Earth Mining Is Taking a Heavy Toll"](https://e360.yale.edu/features/myanmar-rare-earth-mining). Mapped expansion of rare earth mining in Myanmar as part of work with Data and Research team. Tools included QGIS and Datawrapper.
 - ["Kenyan Officials Call for Change After Pulitzer Center Grantee's Report on Rapists Going Free"](https://pulitzercenter.org/blog/kenyan-officials-call-change-after-pulitzer-center-grantees-report-rapists-going-free)
 
 ---
