@@ -1,5 +1,4 @@
-
-## Clips
+## Articles
 
 - [What South American Forests Reveal When Journalists Report Across Borders](https://pulitzercenter.org/blog/behind-story-what-south-american-forests-reveal-when-journalists-report-across-borders)
 - [Lo que revelan los bosques sudamericanos cuando los periodistas informan a través de las fronteras](https://pulitzercenter.org/es/blog/detras-de-la-historia-lo-que-revelan-los-bosques-sudamericanos-cuando-los-periodistas-informan)
