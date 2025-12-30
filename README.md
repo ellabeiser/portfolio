@@ -1,12 +1,4 @@
-**I'm a bilingual journalist living between my hometown Chicago and Santiago, Chile. I'm driven by stories that reveal hidden undercurrents and draw people closer to one another.**
 
-**Thus far, the bulk of my reporting has focused on immigration, higher education and local news.**
-
-**I'm skilled in Spanish–English translation, data wrangling and map making.**
-
-**I can be reached at my email, ellabeiser606@gmail.com.**
-
----
 ## Clips
 
 - [What South American Forests Reveal When Journalists Report Across Borders](https://pulitzercenter.org/blog/behind-story-what-south-american-forests-reveal-when-journalists-report-across-borders)
