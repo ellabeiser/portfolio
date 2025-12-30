@@ -28,6 +28,7 @@ At the Pulitzer Center I worked primarily with the publishing team, copy editing
 
 **The Bates Student** | Bates College | September 2023-June 2025
 _Editor in Chief_   
+
 At _The Student_, I managed a 21-person staff. In the absence of a faculty advisor or a journalism program at our college, I made final editorial decisions and designed and led consistent training programs for incoming writers. On average, I edited and coached approximately 50 stories per month. During my junior year, I revived our print publication, which had lapsed during the pandemic, and trained staff in Adobe InDesign and Photoshop. Over my four years at the paper, I also published 38 articles of my own.
 
 During my senior year at the paper, the SPLC published revised guidelines on "take-down" requests due to increased risks to international students. In response I reached out to other student newspapers and organized weekly meetings to discuss changes and challenges we were facing. 
@@ -40,6 +41,7 @@ During my senior year at the paper, the SPLC published revised guidelines on "ta
 
 **Hyde Park Herald** | Chicago, IL | May 2024-August 2024 
 _Reporting Intern_  
+
 In the summer of 2024 I returned home to Chicago where I worked for a small publication on the South Side of Chicago. Over the course of the summer I researched, interviewed and wrote 17 stories, conducting interviews in Spanish with Venezuelan immigrants new to the city.
 
 - ["South Shore housing protections need broader support, leaders say"](https://www.hpherald.com/evening_digest/south-shore-housing-protections-need-broader-support-leaders-say/article_e78360e6-3261-11ef-8783-a7924644900b.html)
@@ -49,6 +51,7 @@ In the summer of 2024 I returned home to Chicago where I worked for a small publ
 
 **Lewiston Sun Journal** | Lewiston, ME | June 2023-July 2023
 _Reporting Intern_  
+
 The _Lewiston Sun Journal_ is a long-running daily newspaper in Maine. It was my first formal reporting internship, during which I published 19 articles on topics ranging from Afghan immigration and a newly opened Amish farm store to the migration habits of Maine moose.
 
 - ["Feeling well grounded in Lewiston: How 2 Afghan pilots came to Lewiston"](https://media.journoportfolio.com/users/433213/uploads/015a93c2-dcf0-4b42-b60c-b67f7161b824.pdf)
@@ -56,32 +59,37 @@ The _Lewiston Sun Journal_ is a long-running daily newspaper in Maine. It was my
 
 ---
 
-**Neighbors United for Mutual Support** | Chicago, IL |June 2025-present
+**Neighbors United for Mutual Support** | Chicago, IL | June 2025-present
 _Volunteer_   
+
 I volunteer as a translator at a legal clinic on the South Side of Chicago. They provide free and subsidized legal aid to asylum seekers. Working with them I've translated legal documents and personal narratives.
 
 ---
 
 **South Side Weekly** | Chicago, IL |June 2022-present 
 _Fact Checker_   
+
 The _South Side Weekly_ is an investigative hub embedded in the South Side of Chicago where I have sporadically freelanced. However, the bulk of my work with them has been fact checking.
 
 ---
 
 **City Bureau Documenters Program** | Chicago, IL | April 2022-present
 _Documenter_  
+
 The Documenters program trains city residents to attend public meetings and take detailed notes to increase transparency and accountability. The notes are used by a variety of news and social organizations.
 
 ---
 
 **Associated Press** | Remote | October 2024-November 2024
 _Vote Entry Operator_  
+
 As a Vote Entry Operator, I inputted vote totals from stringers calling in on election night. 
 
 ---
 
 **WBEZ 91.5 FM** | Chicago, IL | May 2024-October 2024
 _Freelancer_  
+
 I assisted in developing the [WBEZ/Chicago Sun-Times Elected School Board Voter Guide](https://chicago.suntimes.com/graphics/chicago-school-board/2024/voter-guide/) which won the [ONA Gather Award in Community-Centered Journalism, Urban & National Focus.](https://awards.journalists.org/entries/the-chicago-school-board-voter-guide/) 
 
 --- 
