@@ -27,4 +27,4 @@
 - [Big, Lumbering and Elusive: How To Find a Maine Moose](https://www.sunjournal.com/2023/07/09/big-lumbering-and-elusive-how-to-see-maines-iconic-moose/) — _Lewiston Sun Journal_
 
 ## Personal Projects
-- [No Friend of the Mountain](https://www.instagram.com/reel/DTyJf3FD5rJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) — ![Video](https://img.shields.io/badge/Video-green)
+- [No Friend of the Mountain](https://www.instagram.com/reel/DTyJf3FD5rJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) ![Video](https://img.shields.io/badge/Video-green)
