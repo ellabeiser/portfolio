@@ -1,4 +1,4 @@
-## Clips
+## Professional Clips
 
 - [What South American Forests Reveal When Journalists Report Across Borders](https://pulitzercenter.org/blog/behind-story-what-south-american-forests-reveal-when-journalists-report-across-borders) — Pulitzer Center
 - [Lo que revelan los bosques sudamericanos cuando los periodistas informan a través de las fronteras](https://pulitzercenter.org/es/blog/detras-de-la-historia-lo-que-revelan-los-bosques-sudamericanos-cuando-los-periodistas-informan) — Pulitzer Center – ![Spanish](https://img.shields.io/badge/Spanish-red)
@@ -25,3 +25,6 @@
 - [Hospice Choir Supports Residents While Looking To Rebuild After COVID](https://www.sunjournal.com/2023/06/24/hospice-choir-supports-residents-while-looking-to-rebuild-after-covid/) — _Lewiston Sun Journal_
 - [Amish Community’s Growing Market Opens in New Barn in Wales](https://www.sunjournal.com/2023/06/28/amish-communitys-growing-market-opens-in-new-barn-in-wales/) — _Lewiston Sun Journal_
 - [Big, Lumbering and Elusive: How To Find a Maine Moose](https://www.sunjournal.com/2023/07/09/big-lumbering-and-elusive-how-to-see-maines-iconic-moose/) — _Lewiston Sun Journal_
+
+## Personal Projects
+- [No Friend of the Mountain](https://www.instagram.com/reel/DTyJf3FD5rJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==) — ![Video](https://img.shields.io/badge/Video-green)
