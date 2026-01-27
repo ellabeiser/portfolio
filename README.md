@@ -2,6 +2,7 @@
 
 - [What South American Forests Reveal When Journalists Report Across Borders](https://pulitzercenter.org/blog/behind-story-what-south-american-forests-reveal-when-journalists-report-across-borders) — Pulitzer Center
 - [Lo que revelan los bosques sudamericanos cuando los periodistas informan a través de las fronteras](https://pulitzercenter.org/es/blog/detras-de-la-historia-lo-que-revelan-los-bosques-sudamericanos-cuando-los-periodistas-informan) — Pulitzer Center ![Spanish](https://img.shields.io/badge/Spanish-red)
+- [Year in Photos](https://report.pulitzercenter.org/annual-reports/2025-year-in-photos) (curation) - Pulitzer Center
 - [How Journalists Protected Uncontacted Peoples in Reporting Project](https://pulitzercenter.org/blog/behind-story-how-journalists-protected-uncontacted-peoples-reporting-project) — Pulitzer Center
 - [Cómo dos periodistas protegieron a pueblos aislados en un proyecto periodístico](https://pulitzercenter.org/es/blog/detras-de-la-historia-como-dos-periodistas-protegieron-pueblos-aislados-en-un-proyecto) — Pulitzer Center ![Spanish](https://img.shields.io/badge/Spanish-red)
 - [How Journalists Protected Uncontacted Peoples in Reporting Project](https://www.instagram.com/p/DPpU9MBD8IW/) — Pulitzer Center ![Video](https://img.shields.io/badge/Video-green)
