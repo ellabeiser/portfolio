@@ -1,5 +1,5 @@
 ## Professional Clips
-
+- [How Reporting Duo Overcame Challenges to Unravel Rare Earth Mining Web](https://pulitzercenter.org/blog/behind-story-how-reporting-duo-overcame-challenges-unravel-rare-earth-mining-web) – Pulitzer Center
 - [Rights Group Scrutinizes Tire Giants After Pulitzer Center Investigation Into Problematic Rubber](https://pulitzercenter.org/blog/rights-group-scrutinizes-tire-giants-after-pulitzer-center-investigation-problematic-rubber) – Pulitzer Center
 - [Lo que revelan los bosques sudamericanos cuando los periodistas informan a través de las fronteras](https://www.instagram.com/p/DUHLwHYj4LP/) — Pulitzer Center ![Spanish](https://img.shields.io/badge/Spanish-red)![Video](https://img.shields.io/badge/Video-green)
 - [What South American Forests Reveal When Journalists Report Across Borders](https://pulitzercenter.org/blog/behind-story-what-south-american-forests-reveal-when-journalists-report-across-borders) — Pulitzer Center
