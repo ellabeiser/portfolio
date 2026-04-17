@@ -1,4 +1,5 @@
 ## Professional Clips
+- [Grantee Investigates the Bitter Side of the Cocoa Market in Africa](https://pulitzercenter.org/blog/behind-story-grantee-investigates-bitter-side-cocoa-market-africa) – Pulitzer Center
 - [Mineradora investigada por contaminação no AM abasteceu Toyota e fornecedor da Tesla](https://reporterbrasil.org.br/2026/03/mineradora-investigada-contaminacao-am-abasteceu-toyota-fornecedor-tesla/) – Repórter Brasil ![Research Support & OSINT](https://img.shields.io/badge/Research_Support_&_OSINT-pink)
 - [How Reporting Duo Overcame Challenges to Unravel Rare Earth Mining Web](https://pulitzercenter.org/blog/behind-story-how-reporting-duo-overcame-challenges-unravel-rare-earth-mining-web) – Pulitzer Center
 - [Rights Group Scrutinizes Tire Giants After Pulitzer Center Investigation Into Problematic Rubber](https://pulitzercenter.org/blog/rights-group-scrutinizes-tire-giants-after-pulitzer-center-investigation-problematic-rubber) – Pulitzer Center
