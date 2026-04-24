@@ -1,3 +1,8 @@
+<nav class="site-nav" markdown="0">
+  <a href="{{ site.baseurl }}/" class="active">Clips</a>
+  <a href="{{ site.baseurl }}/media.html">Media</a>
+</nav>
+
 ## Professional Clips
 - [Grantee Investigates the Bitter Side of the Cocoa Market in Africa](https://pulitzercenter.org/blog/behind-story-grantee-investigates-bitter-side-cocoa-market-africa) – Pulitzer Center
 - [Mineradora investigada por contaminação no AM abasteceu Toyota e fornecedor da Tesla](https://reporterbrasil.org.br/2026/03/mineradora-investigada-contaminacao-am-abasteceu-toyota-fornecedor-tesla/) – Repórter Brasil ![Research Support & OSINT](https://img.shields.io/badge/Research_Support_&_OSINT-pink)
@@ -15,7 +20,7 @@
 - [Student Wins Conduct Hearing After Facing Four Years of Probation for Use of a Nerf Gun](https://thebatesstudent.com/25656/news/breaking-news-student-facing-four-years-of-probation-for-use-of-a-nerf-gun-wins-conduct-hearing/#live-update-26546) — _The Bates Student_
 - [Proposed Discipline Procedures Would Remove Live Hearing](https://thebatesstudent.com/27350/news/proposed-discipline-procedures-would-remove-live-hearing/) — _The Bates Student_
 - [Busking for Reparations: A Bid for Repair Through Art](https://thebatesstudent.com/25954/news/busking-for-reparations-a-bid-for-repair-through-art/#live-update-26546) — _The Bates Student_ ![Audio](https://img.shields.io/badge/Audio-blue)
-- [‘Easier To Remove Someone for Missing Meetings Than if They Sexually Assault Someone,’ Club Leader Worries](https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546) — _The Bates Student_
+- ['Easier To Remove Someone for Missing Meetings Than if They Sexually Assault Someone,' Club Leader Worries](https://thebatesstudent.com/26364/news/easier-to-remove-someone-for-missing-meetings-than-if-they-sexually-assault-someone-club-leader-worries/#live-update-26546) — _The Bates Student_
 - [Bates Agreed To Pay an Unspecified Amount to the Children of Former Head Football Coach](https://thebatesstudent.com/25169/uncategorized/breaking-news-bates-agreed-to-pay-an-unspecified-amount-to-the-children-of-former-head-football-coach/#live-update-26546) — _The Bates Student_
 - [19 Members of Brooks Quimby Debate Council Collectively Resign in Open Letter](https://thebatesstudent.com/25487/news/19-members-of-brooks-quimby-debate-council-collectively-resign-in-open-letter/#live-update-26546) — _The Bates Student_
 - [Faculty Pass Race, Power, Privilege, Colonialism Curriculum Requirement After Months of Debate](https://thebatesstudent.com/24306/news/faculty-pass-race-power-privilege-colonialism-curriculum-requirement-after-months-of-debate/#live-update-26546) — _The Bates Student_
@@ -29,7 +34,7 @@
 - [Lewiston Practice Offers Neurofeedback Therapy To Treat Traumatic Brain Injuries](https://www.sunjournal.com/2023/07/05/lewiston-practice-offers-neurofeedback-therapy-to-treat-traumatic-brain-injuries/) — _Lewiston Sun Journal_
 - [Bikers Ride for Family, Clean Air and Safety During 39th Annual Trek Across Maine](https://www.sunjournal.com/2023/06/16/bikers-ride-for-family-clean-air-and-safety/) — _Lewiston Sun Journal_
 - [Hospice Choir Supports Residents While Looking To Rebuild After COVID](https://www.sunjournal.com/2023/06/24/hospice-choir-supports-residents-while-looking-to-rebuild-after-covid/) — _Lewiston Sun Journal_
-- [Amish Community’s Growing Market Opens in New Barn in Wales](https://www.sunjournal.com/2023/06/28/amish-communitys-growing-market-opens-in-new-barn-in-wales/) — _Lewiston Sun Journal_
+- [Amish Community's Growing Market Opens in New Barn in Wales](https://www.sunjournal.com/2023/06/28/amish-communitys-growing-market-opens-in-new-barn-in-wales/) — _Lewiston Sun Journal_
 - [Big, Lumbering and Elusive: How To Find a Maine Moose](https://www.sunjournal.com/2023/07/09/big-lumbering-and-elusive-how-to-see-maines-iconic-moose/) — _Lewiston Sun Journal_
 
 ## Personal Projects

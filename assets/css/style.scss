@@ -1,0 +1,229 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* ── Google Fonts ─────────────────────────────────── */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Source+Sans+3:wght@400;600&display=swap');
+
+/* ── Palette ──────────────────────────────────────── */
+:root {
+  --cream:        #faf7f2;
+  --paper:        #f5f0e8;
+  --ink:          #2a1f14;
+  --ink-light:    #6b5040;
+  --rust:         #b5522b;
+  --rust-light:   #d4845a;
+  --rule:         #e0d6c8;
+  --white:        #fffefb;
+}
+
+/* ── Base ─────────────────────────────────────────── */
+body {
+  background-color: var(--cream);
+  color: var(--ink);
+  font-family: 'Lora', Georgia, serif;
+  line-height: 1.8;
+  font-size: 16px;
+}
+
+/* ── Header (sidebar) ─────────────────────────────── */
+header {
+  background-color: var(--paper);
+  border-right: 1px solid var(--rule);
+  padding: 1.5em 1.5em 2em;
+}
+
+header h1 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 1.25em;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: var(--ink);
+  line-height: 1.3;
+}
+
+header p {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.88em;
+  color: var(--ink-light);
+  line-height: 1.65;
+}
+
+header img {
+  border-radius: 50%;
+  border: 3px solid var(--rule);
+  box-shadow: 0 2px 12px rgba(42,31,20,0.10);
+  margin-bottom: 0.8em;
+}
+
+header a {
+  color: var(--rust);
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header ul li a {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.82em;
+}
+
+/* ── Nav bar ──────────────────────────────────────── */
+.site-nav {
+  display: flex;
+  gap: 0;
+  margin: 0 0 2.2em;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0;
+}
+
+.site-nav a {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-light);
+  text-decoration: none;
+  padding: 0.5em 1.2em 0.5em 0;
+  margin-right: 0.4em;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.site-nav a:hover {
+  color: var(--rust);
+  border-bottom-color: var(--rust-light);
+}
+
+.site-nav a.active {
+  color: var(--rust);
+  border-bottom-color: var(--rust);
+}
+
+/* ── Section headings ─────────────────────────────── */
+section h2 {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.75em;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--rust);
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.5em;
+  margin-top: 2.2em;
+}
+
+/* ── Lists ────────────────────────────────────────── */
+section ul {
+  padding-left: 1.1em;
+}
+
+section ul li {
+  font-size: 0.95em;
+  margin-bottom: 0.55em;
+  line-height: 1.65;
+}
+
+section ul li img {
+  vertical-align: middle;
+  margin-left: 4px;
+  border-radius: 2px;
+}
+
+/* ── Links ────────────────────────────────────────── */
+section a {
+  color: var(--rust);
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* ── Media page ───────────────────────────────────── */
+.media-section {
+  margin: 0 0 2.5em;
+}
+
+.media-section > p.section-desc {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.88em;
+  color: var(--ink-light);
+  margin: 0.4em 0 1.2em;
+  font-style: italic;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  gap: 1.4em;
+  margin-top: 1em;
+}
+
+.media-card {
+  background: var(--white);
+  border: 1px solid var(--rule);
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 1px 6px rgba(42,31,20,0.06);
+  transition: box-shadow 0.2s;
+}
+
+.media-card:hover {
+  box-shadow: 0 3px 14px rgba(42,31,20,0.11);
+}
+
+.media-card iframe {
+  display: block;
+  width: 100%;
+  border: none;
+  background: #f0ebe3;
+}
+
+.media-card-info {
+  padding: 0.75em 1em 0.9em;
+  border-top: 1px solid var(--rule);
+}
+
+.media-card-info h3 {
+  font-family: 'Lora', Georgia, serif;
+  font-size: 0.88em;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 0.2em;
+  line-height: 1.45;
+}
+
+.media-card-info p {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.78em;
+  color: var(--ink-light);
+  margin: 0;
+  font-style: italic;
+}
+
+/* ── Footer ───────────────────────────────────────── */
+footer {
+  border-top: 1px solid var(--rule);
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.78em;
+  color: var(--ink-light);
+  margin-top: 3em;
+  padding-top: 1.2em;
+}
+
+footer a {
+  color: var(--rust-light);
+}
+
+/* ── Responsive ───────────────────────────────────── */
+@media (max-width: 700px) {
+  .media-grid {
+    grid-template-columns: 1fr;
+  }
+}
