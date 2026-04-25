@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Multimedia
+title: Media
 ---
 
 <nav class="site-nav">
@@ -8,61 +8,68 @@ title: Multimedia
   <a href="{{ site.baseurl }}/media.html" class="active">Media</a>
 </nav>
 
+## Videos
+
 <div class="media-section">
-<p class="section-desc">Video journalism and social media.</p>
+<p class="section-desc">Video journalism and documentary work.</p>
 <div class="media-grid">
 
   <div class="media-card">
-    <iframe src="https://www.instagram.com/p/DUHLwHYj4LP/embed/" height="480" scrolling="no" allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    {% include instagramPlayer.html id="DTyJf3FD5rJ" %}
     <div class="media-card-info">
+      <h3>No Friend of the Mountain</h3>
+      <p class="outlet">Personal Project</p>
     </div>
   </div>
 
   <div class="media-card">
-    <iframe src="https://www.instagram.com/p/DPpU9MBD8IW/embed/" height="480" scrolling="no" allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    {% include instagramPlayer.html id="DUHLwHYj4LP" %}
     <div class="media-card-info">
+      <h3>Lo que revelan los bosques sudamericanos cuando los periodistas informan a través de las fronteras</h3>
+      <p class="outlet">Pulitzer Center</p>
     </div>
   </div>
 
   <div class="media-card">
-    <iframe src="https://www.instagram.com/reel/DTyJf3FD5rJ/embed/" height="480" scrolling="no" allowtransparency="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    {% include instagramPlayer.html id="DPpU9MBD8IW" %}
     <div class="media-card-info">
+      <h3>How Journalists Protected Uncontacted Peoples in Reporting Project</h3>
+      <p class="outlet">Pulitzer Center</p>
     </div>
   </div>
 
 </div>
 </div>
 
+## Audio
 
 <div class="media-section">
-<p class="section-desc">Radio and podcast work. <code>&lt;div class="media-card"&gt;</code> block to add more.</p>
+<p class="section-desc">Radio and podcast work. Paste any SoundCloud embed iframe into a new <code>&lt;div class="media-card"&gt;</code> block to add more.</p>
 <div class="media-grid">
 
-  <!-- ╔══════════════════════════════════════════════════╗
-       ║  To add a SoundCloud track:                      ║
-       ║  1. Go to the track on SoundCloud                ║
-       ║  2. Click Share → Embed                          ║
-       ║  3. Copy the iframe code                         ║
-       ║  4. Paste it inside a new media-card div below   ║
-       ╚══════════════════════════════════════════════════╝ -->
-
   <div class="media-card">
-    <!-- REPLACE the src below with your SoundCloud embed URL for Subterranean Super Sale -->
-    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/3D9033IMrDn1n8I0LjQt6H?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <!-- Replace src with your SoundCloud embed URL -->
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=PASTE_SOUNDCLOUD_URL_HERE&color=%23b5522b&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+    </iframe>
     <div class="media-card-info">
       <h3>Subterranean Super Sale</h3>
-      <p>Vocalo</p>
+      <p class="outlet">Vocalo</p>
     </div>
   </div>
 
   <div class="media-card">
-    <!-- REPLACE the src below with your SoundCloud embed URL for Busking for Reparations -->
-    <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1852205358&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-929152153-598460423" title="Ella" target="_blank" style="color: #cccccc; text-decoration: none;">Ella</a> · <a href="https://soundcloud.com/user-929152153-598460423/busking-for-reparations-a-bid-for-repair-through-art" title="Busking for Reparations: A Bid for Repair through Art" target="_blank" style="color: #cccccc; text-decoration: none;">Busking for Reparations: A Bid for Repair through Art</a></div>
+    <!-- Replace src with your SoundCloud embed URL -->
+    <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=PASTE_SOUNDCLOUD_URL_HERE&color=%23b5522b&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false">
+    </iframe>
     <div class="media-card-info">
       <h3>Busking for Reparations: A Bid for Repair Through Art</h3>
-      <p>The Bates Student</p>
+      <p class="outlet">The Bates Student</p>
     </div>
   </div>
 
 </div>
 </div>
+
+<script async src="//www.instagram.com/embed.js"></script>
