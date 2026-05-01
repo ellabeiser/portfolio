@@ -108,6 +108,84 @@ Audio
 </div>
 </div>
 
+Instagram
+
+<div class="media-section">
+<p class="section-desc">Photo stories and carousels.</p>
+<div class="media-grid">
+
+  <div class="media-card">
+    <a href="https://www.instagram.com/p/EXAMPLE1/" target="_blank" rel="noopener" class="carousel-link">
+      <div class="carousel-wrapper">
+        <img
+          src="{{ site.baseurl }}/assets/images/carousel1.jpg"
+          alt="Instagram carousel preview"
+          class="carousel-image"
+        />
+        <div class="carousel-indicator">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="6" width="6" height="8" rx="1" fill="rgba(250,247,242,0.95)"/>
+            <rect x="10" y="6" width="6" height="8" rx="1" fill="rgba(250,247,242,0.7)"/>
+            <rect x="14" y="6" width="4" height="8" rx="1" fill="rgba(250,247,242,0.4)"/>
+          </svg>
+        </div>
+      </div>
+    </a>
+    <div class="media-card-info">
+      <h3>Your Carousel Title Here</h3>
+      <p class="outlet">Publication Name</p>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <a href="https://www.instagram.com/p/EXAMPLE2/" target="_blank" rel="noopener" class="carousel-link">
+      <div class="carousel-wrapper">
+        <img
+          src="{{ site.baseurl }}/assets/images/carousel2.jpg"
+          alt="Instagram carousel preview"
+          class="carousel-image"
+        />
+        <div class="carousel-indicator">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="6" width="6" height="8" rx="1" fill="rgba(250,247,242,0.95)"/>
+            <rect x="10" y="6" width="6" height="8" rx="1" fill="rgba(250,247,242,0.7)"/>
+            <rect x="14" y="6" width="4" height="8" rx="1" fill="rgba(250,247,242,0.4)"/>
+          </svg>
+        </div>
+      </div>
+    </a>
+    <div class="media-card-info">
+      <h3>Your Carousel Title Here</h3>
+      <p class="outlet">Publication Name</p>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <a href="https://www.instagram.com/p/EXAMPLE3/" target="_blank" rel="noopener" class="carousel-link">
+      <div class="carousel-wrapper">
+        <img
+          src="{{ site.baseurl }}/assets/images/carousel3.jpg"
+          alt="Instagram carousel preview"
+          class="carousel-image"
+        />
+        <div class="carousel-indicator">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="2" y="6" width="6" height="8" rx="1" fill="rgba(250,247,242,0.95)"/>
+            <rect x="10" y="6" width="6" height="8" rx="1" fill="rgba(250,247,242,0.7)"/>
+            <rect x="14" y="6" width="4" height="8" rx="1" fill="rgba(250,247,242,0.4)"/>
+          </svg>
+        </div>
+      </div>
+    </a>
+    <div class="media-card-info">
+      <h3>Your Carousel Title Here</h3>
+      <p class="outlet">Publication Name</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
 <style>
 /* ── Video cards ─────────────────────────────────── */
 .video-wrapper {
@@ -185,6 +263,59 @@ Audio
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ── Instagram carousel cards ───────────────────── */
+.carousel-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #1a1108;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.carousel-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.carousel-link:hover .carousel-image {
+  transform: scale(1.03);
+  opacity: 0.92;
+}
+
+.carousel-indicator {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(42, 31, 20, 0.5);
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s ease;
+}
+
+.carousel-link:hover .carousel-indicator {
+  background: rgba(42, 31, 20, 0.65);
+}
+
+.carousel-indicator svg {
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.2));
+}
+
 </style>
 
 <script>
