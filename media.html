@@ -1,3 +1,113 @@
+---
+layout: default
+title: Multimedia
+---
+
+<nav class="site-nav">
+  <a href="{{ site.baseurl }}/">Clips</a>
+  <a href="{{ site.baseurl }}/media.html" class="active">Multimedia</a>
+</nav>
+
+Video
+
+<div class="media-section">
+<p class="section-desc">Video journalism and social media.</p>
+<div class="media-grid">
+
+  <div class="media-card">
+    <div class="video-wrapper">
+      <video
+        src="{{ site.baseurl }}/assets/videos/goats.mp4"
+        playsinline
+        preload="metadata"
+        class="media-video"
+      ></video>
+      <button class="play-btn" aria-label="Play video">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="22" fill="rgba(250,247,242,0.92)"/>
+          <polygon points="17,13 35,22 17,31" fill="#b5522b"/>
+        </svg>
+      </button>
+    </div>
+    <div class="media-card-info">
+      <h3>Lo que revelan los bosques sudamericanos cuando los periodistas informan a través de las fronteras</h3>
+      <p class="outlet">Pulitzer Center</p>
+      <a class="ig-link" href="https://www.instagram.com/p/DUHLwHYj4LP/" target="_blank" rel="noopener">View on Instagram ↗</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <div class="video-wrapper">
+      <video
+        src="{{ site.baseurl }}/assets/videos/uncontacted.mp4"
+        playsinline
+        preload="metadata"
+        class="media-video"
+      ></video>
+      <button class="play-btn" aria-label="Play video">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="22" fill="rgba(250,247,242,0.92)"/>
+          <polygon points="17,13 35,22 17,31" fill="#b5522b"/>
+        </svg>
+      </button>
+    </div>
+    <div class="media-card-info">
+      <h3>How Journalists Protected Uncontacted Peoples in Reporting Project</h3>
+      <p class="outlet">Pulitzer Center</p>
+      <a class="ig-link" href="https://www.instagram.com/p/DPpU9MBD8IW/" target="_blank" rel="noopener">View on Instagram ↗</a>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <div class="video-wrapper">
+      <video
+        src="{{ site.baseurl }}/assets/videos/no_friend.mp4"
+        playsinline
+        preload="metadata"
+        class="media-video"
+      ></video>
+      <button class="play-btn" aria-label="Play video">
+        <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="22" fill="rgba(250,247,242,0.92)"/>
+          <polygon points="17,13 35,22 17,31" fill="#b5522b"/>
+        </svg>
+      </button>
+    </div>
+    <div class="media-card-info">
+      <h3>No Friend of the Mountain</h3>
+      <p class="outlet">Personal Project</p>
+      <a class="ig-link" href="https://www.instagram.com/reel/DTyJf3FD5rJ/" target="_blank" rel="noopener">View on Instagram ↗</a>
+    </div>
+  </div>
+
+</div>
+</div>
+
+Audio
+
+<div class="media-section">
+<p class="section-desc">Radio and podcast work.</p>
+<div class="media-grid">
+
+  <div class="media-card">
+    <iframe style="border-radius:5px 5px 0 0" src="https://open.spotify.com/embed/episode/3D9033IMrDn1n8I0LjQt6H?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <div class="media-card-info">
+      <h3>Subterranean Super Sale</h3>
+      <p class="outlet">Vocalo</p>
+    </div>
+  </div>
+
+  <div class="media-card">
+    <iframe width="100%" height="232" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1852205358&color=%23b5522b&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=true"></iframe>
+    <div class="media-card-info">
+      <h3>Busking for Reparations: A Bid for Repair Through Art</h3>
+      <p class="outlet">The Bates Student</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
 Instagram Carousels
 
 <div class="media-section">
@@ -6,8 +116,7 @@ Instagram Carousels
 
   <div class="media-card">
     <a href="https://www.instagram.com/p/DNenWpWsrF8/?igsh=M2d3cHR1em8wOTJl" target="_blank" rel="noopener" class="carousel-link">
-      <div class="carousel-wrapper">
-        <img
+      <img
           src="{{ site.baseurl }}/assets/images/rapid_development.png"
           alt="Instagram carousel preview"
           class="carousel-image"
@@ -27,5 +136,162 @@ Instagram Carousels
     </div>
   </div>
 
-</div>
-</div>
+ 
+<style>
+/* ── Video cards ─────────────────────────────────── */
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9 / 16;
+  background: #1a1108;
+  overflow: hidden;
+}
+
+.media-video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Custom play button — visible until video starts */
+.play-btn {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(42, 31, 20, 0.28);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: background 0.2s ease;
+}
+
+.play-btn:hover {
+  background: rgba(42, 31, 20, 0.15);
+}
+
+.play-btn:hover svg circle {
+  fill: rgba(255,255,255,1);
+}
+
+.play-btn svg {
+  filter: drop-shadow(0 2px 8px rgba(0,0,0,0.3));
+  transition: transform 0.2s ease;
+}
+
+.play-btn:hover svg {
+  transform: scale(1.1);
+}
+
+/* Hide play button once playing */
+.video-wrapper.playing .play-btn {
+  display: none;
+}
+
+/* Instagram link below card */
+.ig-link {
+  display: inline-block;
+  margin-top: 0.45em;
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--rust);
+  text-decoration: none;
+}
+
+.ig-link:hover {
+  text-decoration: underline;
+}
+
+/* 3-column grid for portrait videos on desktop */
+@media (min-width: 601px) {
+  .media-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ── Instagram carousel cards ───────────────────── */
+.carousel-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.carousel-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: #1a1108;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.carousel-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.carousel-link:hover .carousel-image {
+  transform: scale(1.03);
+  opacity: 0.92;
+}
+
+.carousel-indicator {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: rgba(42, 31, 20, 0.5);
+  border-radius: 50%;
+  backdrop-filter: blur(4px);
+  transition: background 0.2s ease;
+}
+
+.carousel-link:hover .carousel-indicator {
+  background: rgba(42, 31, 20, 0.65);
+}
+
+.carousel-indicator svg {
+  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.2));
+}
+
+</style>
+
+<script>
+document.querySelectorAll('.video-wrapper').forEach(function(wrapper) {
+  var video = wrapper.querySelector('video');
+  var btn = wrapper.querySelector('.play-btn');
+  if (!video || !btn) return;
+
+  btn.addEventListener('click', function() {
+    video.play();
+    wrapper.classList.add('playing');
+    // Show native controls once playing so user can pause/seek/fullscreen
+    video.controls = true;
+  });
+
+  // If user pauses via native controls, show play button again
+  video.addEventListener('pause', function() {
+    wrapper.classList.remove('playing');
+    video.controls = false;
+  });
+
+  video.addEventListener('ended', function() {
+    wrapper.classList.remove('playing');
+    video.controls = false;
+    video.currentTime = 0;
+  });
+});
+</script>
