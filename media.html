@@ -108,7 +108,121 @@ Audio
 </div>
 </div>
 
+Instagram
+
+<div class="media-section">
+<p class="section-desc">Photo essays and visual storytelling.</p>
+<div class="media-grid carousel-grid">
+
+  <div class="carousel-card">
+    <a href="https://www.instagram.com/p/DL7whLIsUKp/?utm_source=ig_web_copy_link&igsh=MWdpMmJzb3VzOWZ0Nw==" target="_blank" rel="noopener" class="carousel-link">
+      <div class="carousel-img-wrapper">
+        <img
+          src="{{ site.baseurl }}/assets/images/olive_oil"
+          alt="Carousel cover"
+          class="carousel-img"
+          loading="lazy"
+        />
+        <div class="carousel-overlay">
+          <svg class="ig-icon" xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor" stroke="none"/>
+          </svg>
+          <span class="carousel-view-label">View on Instagram</span>
+        </div>
+      </div>
+    </a>
+    <div class="media-card-info">
+      <h3>The Olive Thieves</h3>
+      <p class="outlet">Pulitzer Center</p>
+      <a class="ig-link" href="https://www.instagram.com/p/DL7whLIsUKp/?utm_source=ig_web_copy_link&igsh=MWdpMmJzb3VzOWZ0Nw==" target="_blank" rel="noopener">View on Instagram ↗</a>
+    </div>
+  </div>
+
+  <!-- Copy the block above to add more carousel cards -->
+
+</div>
+</div>
+
 <style>
+/* ── Instagram Carousel cards ─────────────────────── */
+.carousel-grid {
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+@media (min-width: 601px) {
+  .carousel-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.carousel-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.carousel-link {
+  display: block;
+  text-decoration: none;
+}
+
+.carousel-img-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #1a1108;
+}
+
+.carousel-img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+
+.carousel-link:hover .carousel-img {
+  transform: scale(1.04);
+}
+
+.carousel-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  background: rgba(42, 31, 20, 0.52);
+  color: rgba(250, 247, 242, 0.0);
+  transition: color 0.25s ease, background 0.25s ease;
+}
+
+.carousel-link:hover .carousel-overlay {
+  background: rgba(42, 31, 20, 0.38);
+  color: rgba(250, 247, 242, 0.95);
+}
+
+.ig-icon {
+  filter: drop-shadow(0 2px 6px rgba(0,0,0,0.4));
+  transition: transform 0.2s ease;
+}
+
+.carousel-link:hover .ig-icon {
+  transform: scale(1.1);
+}
+
+.carousel-view-label {
+  font-family: 'Source Sans 3', sans-serif;
+  font-size: 0.78em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+</style>
+
 /* ── Video cards ─────────────────────────────────── */
 .video-wrapper {
   position: relative;
@@ -185,59 +299,6 @@ Audio
     grid-template-columns: repeat(3, 1fr);
   }
 }
-
-/* ── Instagram carousel cards ───────────────────── */
-.carousel-link {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-}
-
-.carousel-wrapper {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
-  background: #1a1108;
-  overflow: hidden;
-  border-radius: 3px;
-}
-
-.carousel-image {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.carousel-link:hover .carousel-image {
-  transform: scale(1.03);
-  opacity: 0.92;
-}
-
-.carousel-indicator {
-  position: absolute;
-  top: 12px;
-  right: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 32px;
-  height: 32px;
-  background: rgba(42, 31, 20, 0.5);
-  border-radius: 50%;
-  backdrop-filter: blur(4px);
-  transition: background 0.2s ease;
-}
-
-.carousel-link:hover .carousel-indicator {
-  background: rgba(42, 31, 20, 0.65);
-}
-
-.carousel-indicator svg {
-  filter: drop-shadow(0 1px 3px rgba(0,0,0,0.2));
-}
-
 </style>
 
 <script>
