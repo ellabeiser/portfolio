@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>For Dorks Only — Google Dork Builder</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:#080c10; --surface:#0d1520; --border:#1e3050;
+      --accent:#00e5ff; --accent2:#ff4d6d; --accent3:#a0ff70; --accent4:#ffc832;
+      --text:#c8d8e8; --muted:#4a6080;
+      --mono:'Share Tech Mono',monospace; --sans:'Syne',sans-serif;
+    }
+    html,body { height:100%; background:var(--bg); color:var(--text); font-family:var(--sans); overflow-x:hidden; }
+    body::before {
+      content:''; position:fixed; inset:0; z-index:0;
+      background-image: linear-gradient(rgba(0,229,255,.03) 1px,transparent 1px), linear-gradient(90deg,rgba(0,229,255,.03) 1px,transparent 1px);
+      background-size:40px 40px; pointer-events:none;
+    }
+    body::after {
+      content:''; position:fixed; inset:0; z-index:0;
+      background:radial-gradient(ellipse 80% 60% at 50% 0%,rgba(0,100,180,.18) 0%,transparent 70%);
+      pointer-events:none;
+    }
+    .shell { position:relative; z-index:1; max-width:860px; margin:0 auto; padding:48px 24px 80px; }
+ 
+    header { margin-bottom:40px; animation:fadeDown .6s ease both; }
+    .logo-row { display:flex; align-items:center; gap:14px; margin-bottom:6px; }
+    .logo-icon { width:42px; height:42px; border:2px solid var(--accent); border-radius:8px; display:grid; place-items:center; color:var(--accent); font-family:var(--mono); font-size:18px; box-shadow:0 0 18px rgba(0,229,255,.25); flex-shrink:0; }
+    h1 { font-size:clamp(28px,5vw,42px); font-weight:800; letter-spacing:-1px; line-height:1; color:#fff; }
+    h1 span { color:var(--accent); }
+    .tagline { font-family:var(--mono); font-size:13px; color:var(--muted); letter-spacing:.06em; margin-top:4px; }
+ 
+    .card { background:var(--surface); border:1px solid var(--border); border-radius:14px; padding:32px; margin-bottom:28px; animation:fadeUp .55s ease both; position:relative; overflow:hidden; }
+    .card::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,transparent,var(--accent),transparent); opacity:.5; }
+    .card-title { font-family:var(--mono); font-size:11px; letter-spacing:.15em; text-transform:uppercase; color:var(--accent); margin-bottom:22px; display:flex; align-items:center; gap:8px; }
+    .card-title::before { content:'//'; opacity:.5; }
+ 
+    .explainer-body { display:flex; flex-direction:column; gap:16px; }
+    .explainer-body p { font-size:15px; line-height:1.7; color:var(--text); opacity:.85; }
+    .explainer-body p.placeholder { color:var(--muted); font-style:italic; border:1px dashed rgba(74,96,128,.4); border-radius:6px; padding:12px 16px; font-size:14px; opacity:1; }
+    .tip-grid { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+    .tip-item { background:rgba(0,229,255,.04); border:1px solid rgba(0,229,255,.12); border-radius:8px; padding:14px 16px; }
+    .tip-item .tip-op { font-family:var(--mono); font-size:12px; color:var(--accent); margin-bottom:5px; }
+    .tip-item .tip-desc { font-size:13px; color:var(--text); opacity:.7; line-height:1.5; }
+ 
+    .section-label { font-family:var(--mono); font-size:10px; letter-spacing:.2em; text-transform:uppercase; color:var(--muted); margin:24px 0 12px; display:flex; align-items:center; gap:10px; }
+    .section-label::after { content:''; flex:1; height:1px; background:var(--border); }
+ 
+    .fields-grid { display:grid; grid-template-columns:1fr 1fr; gap:18px; }
+    .field-full { grid-column:1/-1; }
+    .field label { display:block; font-family:var(--mono); font-size:12px; color:var(--muted); letter-spacing:.08em; margin-bottom:7px; text-transform:uppercase; }
+    .field label .req { color:var(--accent2); margin-left:2px; }
+    .field input,.field select { width:100%; background:rgba(255,255,255,.03); border:1px solid var(--border); border-radius:8px; padding:11px 14px; color:var(--text); font-family:var(--mono); font-size:14px; outline:none; transition:border-color .2s,box-shadow .2s; appearance:none; }
+    .field input::placeholder { color:var(--muted); opacity:.6; }
+    .field input:focus,.field select:focus { border-color:var(--accent); box-shadow:0 0 0 3px rgba(0,229,255,.10); }
+    .field select { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%234a6080' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E"); background-repeat:no-repeat; background-position:right 14px center; padding-right:36px; cursor:pointer; }
+    .field select option { background:#0d1520; }
+    .hint { font-family:var(--mono); font-size:11px; color:var(--muted); margin-top:5px; line-height:1.6; }
+ 
+    .tag-input-wrapper { border:1px solid var(--border); border-radius:8px; padding:8px 10px; display:flex; flex-wrap:wrap; gap:6px; align-items:center; min-height:46px; background:rgba(255,255,255,.03); cursor:text; transition:border-color .2s,box-shadow .2s; }
+    .tag-input-wrapper:focus-within { border-color:var(--accent); box-shadow:0 0 0 3px rgba(0,229,255,.10); }
+    .tag-input-wrapper input { border:none; background:none; outline:none; padding:2px 4px; font-family:var(--mono); font-size:14px; color:var(--text); flex:1; min-width:120px; }
+    .tag-input-wrapper input::placeholder { color:var(--muted); opacity:.6; }
+    .tag { display:inline-flex; align-items:center; gap:5px; background:rgba(0,229,255,.12); border:1px solid rgba(0,229,255,.3); border-radius:4px; padding:2px 8px; font-family:var(--mono); font-size:12px; color:var(--accent); animation:popIn .15s ease; }
+    .tag.agency-tag  { background:rgba(160,255,112,.10); border-color:rgba(160,255,112,.30); color:var(--accent3); }
+    .tag.doctype-tag { background:rgba(255,77,109,.10);  border-color:rgba(255,77,109,.30);  color:var(--accent2); }
+    .tag.exclude-tag { background:rgba(255,200,50,.08);  border-color:rgba(255,200,50,.25);  color:var(--accent4); }
+    .tag button { background:none; border:none; cursor:pointer; color:inherit; opacity:.6; font-size:14px; line-height:1; padding:0; transition:opacity .15s; }
+    .tag button:hover { opacity:1; }
+ 
+    .range-row { display:grid; grid-template-columns:1fr auto 1fr; gap:10px; align-items:center; }
+    .range-sep { font-family:var(--mono); font-size:12px; color:var(--muted); text-align:center; }
+ 
+    .btn-generate { width:100%; padding:15px; background:transparent; border:1.5px solid var(--accent); border-radius:10px; color:var(--accent); font-family:var(--sans); font-size:15px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; position:relative; overflow:hidden; transition:color .2s,box-shadow .2s; margin-top:4px; }
+    .btn-generate::before { content:''; position:absolute; inset:0; background:var(--accent); transform:translateY(100%); transition:transform .25s ease; }
+    .btn-generate:hover { color:#000; box-shadow:0 0 30px rgba(0,229,255,.3); }
+    .btn-generate:hover::before { transform:translateY(0); }
+    .btn-generate span { position:relative; z-index:1; }
+ 
+    #results-section { display:none; animation:fadeUp .4s ease both; }
+    .results-count { font-family:var(--mono); font-size:11px; color:var(--muted); margin-bottom:20px; }
+    .results-count strong { color:var(--accent); }
+    .result-item { margin-bottom:14px; }
+    .result-label { font-family:var(--mono); font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:.1em; margin-bottom:6px; display:flex; align-items:center; gap:6px; }
+    .result-label .dot { width:6px; height:6px; border-radius:50%; flex-shrink:0; }
+    .dot-base     { background:var(--accent3);  box-shadow:0 0 5px var(--accent3); }
+    .dot-site     { background:var(--accent);   box-shadow:0 0 5px var(--accent); }
+    .dot-date     { background:var(--accent4);  box-shadow:0 0 5px var(--accent4); }
+    .dot-title    { background:var(--accent2);  box-shadow:0 0 5px var(--accent2); }
+    .dot-text     { background:var(--accent3);  box-shadow:0 0 5px var(--accent3); }
+    .dot-url      { background:#b388ff;         box-shadow:0 0 5px #b388ff; }
+    .dot-agency   { background:var(--accent3);  box-shadow:0 0 5px var(--accent3); }
+    .dot-doctype  { background:var(--accent2);  box-shadow:0 0 5px var(--accent2); }
+    .dot-around   { background:var(--accent);   box-shadow:0 0 5px var(--accent); }
+    .dot-allin    { background:var(--accent4);  box-shadow:0 0 5px var(--accent4); }
+    .dot-wildcard { background:#b388ff;         box-shadow:0 0 5px #b388ff; }
+    .dot-range    { background:var(--accent4);  box-shadow:0 0 5px var(--accent4); }
+    .dot-or       { background:var(--accent4);  box-shadow:0 0 5px var(--accent4); }
+    .result-box { display:flex; align-items:stretch; border:1px solid var(--border); border-radius:8px; overflow:hidden; background:rgba(255,255,255,.02); }
+    .result-query { flex:1; font-family:var(--mono); font-size:13px; color:#fff; padding:13px 16px; word-break:break-all; line-height:1.6; }
+    .hl-op     { color:var(--accent2); }
+    .hl-around { color:var(--accent); font-weight:bold; }
+    .hl-or     { color:var(--accent4); font-weight:bold; }
+    .hl-excl   { color:var(--accent4); }
+    .btn-row { display:flex; flex-direction:column; border-left:1px solid var(--border); flex-shrink:0; }
+    .btn-copy,.btn-open { flex:1; padding:0 14px; background:none; border:none; cursor:pointer; font-family:var(--mono); font-size:11px; letter-spacing:.06em; transition:background .2s,color .2s; white-space:nowrap; }
+    .btn-copy { color:var(--accent); border-bottom:1px solid var(--border); }
+    .btn-open { color:var(--accent3); }
+    .btn-copy:hover { background:rgba(0,229,255,.1); }
+    .btn-open:hover { background:rgba(160,255,112,.1); }
+    .btn-copy.copied { color:var(--accent3); }
+    .empty-notice { font-family:var(--mono); font-size:13px; color:var(--muted); text-align:center; padding:20px 0; }
+ 
+    footer { font-family:var(--mono); font-size:11px; color:var(--muted); text-align:center; margin-top:60px; letter-spacing:.05em; }
+    footer span { color:var(--accent2); }
+ 
+    @keyframes fadeDown { from{opacity:0;transform:translateY(-16px)} to{opacity:1;transform:translateY(0)} }
+    @keyframes fadeUp   { from{opacity:0;transform:translateY(14px)}  to{opacity:1;transform:translateY(0)} }
+    @keyframes popIn    { from{transform:scale(.7);opacity:0}         to{transform:scale(1);opacity:1} }
+    @media(max-width:580px){
+      .fields-grid{grid-template-columns:1fr} .field-full{grid-column:1}
+      .card{padding:22px 18px} .tip-grid{grid-template-columns:1fr}
+      .range-row{grid-template-columns:1fr} .range-sep{display:none}
+    }
+  </style>
+</head>
+<body>
+<div class="shell">
+ 
+  <header>
+    <div class="logo-row">
+      <div class="logo-icon">D/</div>
+      <h1>For Dorks <span>Only</span></h1>
+    </div>
+    <p class="tagline">//google dork query builder for supply chain investigations</p>
+  </header>
+ 
+  <!-- ══ EXPLAINER ══ -->
+  <div class="card" style="animation-delay:.05s">
+    <div class="card-title">What is Google Dorking?</div>
+    <div class="explainer-body">
+ 
+      <p class="placeholder">
+        ✏️ Google dorking is a technique that uses advanced search operators and keywords to find hidden or sensitive information indexed by Google that isn't easily found through standard searches.
+        For journalists, it's a way to find public but difficult to find information or to just be more efficient in your search. 
+      </p>
+ 
+      <p class="placeholder">
+        ✏️ Google’s search engine indexes every page on the web and when you type in a search to Google there might be thousands or millions of results. Google tries to guess what you might be looking for when it orders those results. It does this based on your location, the number of times that page has been linked to, where the key words in your search appear in the document, how recently the site was published, among other things. 
+              </p>
+ 
+      <p class="placeholder">        
+        Advanced search operators help you get more precise results in your search. For instance, "site:gov filetype:pdf" limits results to PDF files on government domains.        
+      </p>
+ 
+      <div class="tip-grid">
+        <div class="tip-item">
+          <div class="tip-op">site:[url]</div>
+          <div class="tip-desc">Restricts results to a specific website or domain — e.g. only government portals, or a specific company's filing pages.</div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-op">filetype:[ext]</div>
+          <div class="tip-desc">Finds a specific file type — PDFs, spreadsheets, CSVs. Useful for hunting audits, data dumps, and official reports.</div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-op">intitle: / inurl: / intext:</div>
+          <div class="tip-desc">Targets where your keyword appears — in the page title, the URL, or anywhere in the body text of the document.</div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-op">allintext: / allintitle:</div>
+          <div class="tip-desc">Stricter versions: require all your terms to appear together. Cuts noise when two or more concepts must co-occur.</div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-op">before: / after:[date]</div>
+          <div class="tip-desc">Filters results by publication date — useful for finding what was published during a specific event or time window.</div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-op">term1 AROUND(n) term2</div>
+          <div class="tip-desc">Finds documents where two terms appear within n words of each other — surfaces contextual mentions, not just pages that happen to contain both words.</div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-op">term1 OR term2</div>
+          <div class="tip-desc">Broadens the search to match synonyms or alternative phrasings — e.g. supplier OR vendor OR subcontractor.</div>
+        </div>
+        <div class="tip-item">
+          <div class="tip-op">* (wildcard) &nbsp;/&nbsp; -term (exclude)</div>
+          <div class="tip-desc">* stands in for any unknown word in a phrase. -term strips noise — useful when your keyword is ambiguous (e.g. "apple" as a company vs. a fruit).</div>
+        </div>
+      </div>
+ 
+      <p class="placeholder">
+        ✏️ Try and think creatively where the information you are seeking might be stored. What kind of document might the information you are looking for be found in? (an investor report, job postings, shipping manifests, customs databases) What format would it be published in? (pptx, pdf, docx, json) And what sites might you want to search? (Government sites, job sites like LinkedIn, trade databases).
+      </p>
+ 
+    </div>
+  </div>
+ 
+  <!-- ══ QUERY BUILDER ══ -->
+  <div class="card" style="animation-delay:.1s">
+    <div class="card-title">Query Parameters</div>
+ 
+    <div class="section-label">Investigation Context</div>
+    <div class="fields-grid">
+      <div class="field">
+        <label>Commodity / Product</label>
+        <input type="text" id="commodity" placeholder="e.g. cobalt, cotton, palm oil"/>
+      </div>
+      <div class="field">
+        <label>Country / Region</label>
+        <input type="text" id="country" placeholder="e.g. Indonesia, DRC, Southeast Asia"/>
+      </div>
+      <div class="field field-full">
+        <label>Company / Entity</label>
+        <input type="text" id="company" placeholder="e.g. Foxconn, Wilmar International"/>
+      </div>
+    </div>
+ 
+    <div class="section-label">Search Terms</div>
+    <div class="fields-grid">
+ 
+      <div class="field field-full">
+        <label>Keywords <span class="req">*</span></label>
+        <div class="tag-input-wrapper" id="kw-wrapper">
+          <input type="text" id="keyword-input" placeholder="Type a keyword and press Enter…"/>
+        </div>
+        <p class="hint">Each keyword generates its own query set. Add multiple for broader coverage.</p>
+      </div>
+ 
+      <div class="field field-full">
+        <label>Agencies / Regulatory Bodies</label>
+        <div class="tag-input-wrapper" id="agency-wrapper">
+          <input type="text" id="agency-input" placeholder="e.g. ILO, SEC, UNODC — press Enter to add…"/>
+        </div>
+        <p class="hint">Generates targeted site: queries. Known agencies resolve automatically — ILO → ilo.org, SEC → sec.gov, OECD → oecd.org, etc.</p>
+      </div>
+ 
+      <div class="field field-full">
+        <label>Document Types</label>
+        <div class="tag-input-wrapper" id="doctype-wrapper">
+          <input type="text" id="doctype-input" placeholder="e.g. audit report, supplier list, shipping manifest…"/>
+        </div>
+        <p class="hint">Generates intitle:, intext:, and wildcard (*) variants for each document type — e.g. "* audit report" catches variant phrasings.</p>
+      </div>
+ 
+      <div class="field field-full">
+        <label>Exclude Terms</label>
+        <div class="tag-input-wrapper" id="exclude-wrapper">
+          <input type="text" id="exclude-input" placeholder="e.g. wikipedia, fruit, software — press Enter to add…"/>
+        </div>
+        <p class="hint">Appended as -term to every query. Useful when your keyword is ambiguous — e.g. exclude "fruit" when searching for "apple" as a company.</p>
+      </div>
+ 
+    </div>
+ 
+    <div class="section-label">Filters</div>
+    <div class="fields-grid">
+ 
+      <div class="field">
+        <label>Base Site URL</label>
+        <input type="text" id="site-url" placeholder="e.g. sec.gov, ilo.org"/>
+      </div>
+ 
+      <div class="field">
+        <label>File Type</label>
+        <select id="file-type">
+          <option value="">— any —</option>
+          <option value="pdf">PDF</option>
+          <option value="doc">DOC</option>
+          <option value="docx">DOCX</option>
+          <option value="xls">XLS</option>
+          <option value="xlsx">XLSX</option>
+          <option value="ppt">PPT</option>
+          <option value="pptx">PPTX</option>
+          <option value="txt">TXT</option>
+          <option value="xml">XML</option>
+          <option value="json">JSON</option>
+          <option value="sql">SQL</option>
+          <option value="log">LOG</option>
+        </select>
+      </div>
+ 
+      <div class="field">
+        <label>Start Date (after:)</label>
+        <input type="date" id="start-date"/>
+      </div>
+ 
+      <div class="field">
+        <label>End Date (before:)</label>
+        <input type="date" id="end-date"/>
+      </div>
+ 
+      <div class="field field-full">
+        <label>Amount / Number Range</label>
+        <div class="range-row">
+          <input type="text" id="range-min" placeholder="min — e.g. $1000000"/>
+          <div class="range-sep">..</div>
+          <input type="text" id="range-max" placeholder="max — e.g. $50000000"/>
+        </div>
+        <p class="hint">Appended as min..max — useful for finding contracts, fines, or valuations within a financial range.</p>
+      </div>
+ 
+    </div>
+  </div>
+ 
+  <button class="btn-generate" onclick="generate()">
+    <span>⚡ Generate Dork Queries</span>
+  </button>
+ 
+  <!-- ══ RESULTS ══ -->
+  <div id="results-section">
+    <div class="card" style="margin-top:28px; animation-delay:0s">
+      <div class="card-title">Generated Queries</div>
+      <div id="results-count" class="results-count"></div>
+      <div id="results-list"></div>
+    </div>
+  </div>
+ 
+  <footer>Built for journalists. Use responsibly. <span>❤</span></footer>
+  <footer>A project by Ella Beiser</footer>
+ 
+</div>
+<script>
+  // ══ Tag input factory ══
+  function makeTagStore(wrapperId, inputId, tagClass) {
+    const store = [];
+    const wrapper = document.getElementById(wrapperId);
+    const input   = document.getElementById(inputId);
+ 
+    function addTag(raw) {
+      const val = raw.replace(/,/g,'').trim();
+      if (!val || store.includes(val)) { input.value=''; return; }
+      store.push(val); render(); input.value='';
+    }
+    function removeTag(i) { store.splice(i,1); render(); }
+    function render() {
+      wrapper.querySelectorAll('.tag').forEach(t => t.remove());
+      store.forEach((v,i) => {
+        const tag = document.createElement('span');
+        tag.className = 'tag' + (tagClass ? ' '+tagClass : '');
+        tag.innerHTML = `${esc(v)}<button onclick="tagStores['${wrapperId}'].remove(${i})" title="Remove">&times;</button>`;
+        wrapper.insertBefore(tag, input);
+      });
+    }
+    input.addEventListener('keydown', e => {
+      if (e.key==='Enter'||e.key===',') { e.preventDefault(); addTag(input.value); }
+      if (e.key==='Backspace' && input.value==='' && store.length) removeTag(store.length-1);
+    });
+    input.addEventListener('blur', () => { if (input.value.trim()) addTag(input.value); });
+    wrapper.addEventListener('click', () => input.focus());
+    return { store, add: addTag, remove: removeTag };
+  }
+ 
+  const tagStores = {
+    'kw-wrapper':      makeTagStore('kw-wrapper',      'keyword-input', ''),
+    'agency-wrapper':  makeTagStore('agency-wrapper',  'agency-input',  'agency-tag'),
+    'doctype-wrapper': makeTagStore('doctype-wrapper', 'doctype-input', 'doctype-tag'),
+    'exclude-wrapper': makeTagStore('exclude-wrapper', 'exclude-input', 'exclude-tag'),
+  };
+ 
+  // ══ Agency domain map ══
+  const agencyDomains = {
+    'ilo':'ilo.org','sec':'sec.gov','unodc':'unodc.org','un':'un.org',
+    'oecd':'oecd.org','world bank':'worldbank.org','wb':'worldbank.org',
+    'fda':'fda.gov','epa':'epa.gov','customs':'cbp.gov','cbp':'cbp.gov',
+    'dol':'dol.gov','icc':'icc-cpi.int','fatf':'fatf-gafi.org',
+    'unhcr':'unhcr.org','unicef':'unicef.org',
+    'transparency international':'transparency.org','ti':'transparency.org',
+    'global witness':'globalwitness.org',
+    'bbc':'bbc.co.uk','reuters':'reuters.com','ap':'apnews.com',
+  };
+ 
+  function resolveAgencyDomain(name) {
+    return agencyDomains[name.toLowerCase().trim()] || null;
+  }
+ 
+  // ══ AROUND pairing targets (applied when company is present) ══
+  const aroundPairs = [
+    'labor violation','forced labor','audit failure','subcontractor',
+    'fine','penalty','settlement','supply chain','human rights','ESG'
+  ];
+ 
+  // ══ Helpers ══
+  function quoteIfNeeded(s) {
+    return s.includes(' ') ? `"${s}"` : s;
+  }
+ 
+  function buildBase(commodity, country, company, kw) {
+    const parts = [];
+    if (commodity) parts.push(quoteIfNeeded(commodity));
+    if (country)   parts.push(quoteIfNeeded(country));
+    if (company)   parts.push(`"${company}"`);
+    if (kw)        parts.push(kw.includes(' ') ? `"${kw}"` : kw);
+    return parts.join(' ');
+  }
+ 
+  function buildExclusions(excludes) {
+    return excludes.length
+      ? ' ' + excludes.map(e => `-${e.includes(' ') ? '"'+e+'"' : e}`).join(' ')
+      : '';
+  }
+ 
+  // ══ Main generate ══
+  function generate() {
+    const commodity = document.getElementById('commodity').value.trim();
+    const country   = document.getElementById('country').value.trim();
+    const company   = document.getElementById('company').value.trim();
+    const keywords  = tagStores['kw-wrapper'].store;
+    const agencies  = tagStores['agency-wrapper'].store;
+    const docTypes  = tagStores['doctype-wrapper'].store;
+    const excludes  = tagStores['exclude-wrapper'].store;
+    const siteUrl   = document.getElementById('site-url').value.trim();
+    const fileType  = document.getElementById('file-type').value;
+    const startDate = document.getElementById('start-date').value;
+    const endDate   = document.getElementById('end-date').value;
+    const rangeMin  = document.getElementById('range-min').value.trim();
+    const rangeMax  = document.getElementById('range-max').value.trim();
+    const list      = document.getElementById('results-list');
+    list.innerHTML  = '';
+ 
+    const hasContext = commodity || country || company;
+    if (!keywords.length && !hasContext) {
+      list.innerHTML = '<p class="empty-notice">Add at least one keyword or fill in the investigation context to get started.</p>';
+      showResults(); return;
+    }
+ 
+    const ft   = fileType  ? ` filetype:${fileType}` : '';
+    const site = siteUrl   ? ` site:${siteUrl}`      : '';
+    const aft  = startDate ? ` after:${startDate}`   : '';
+    const bef  = endDate   ? ` before:${endDate}`    : '';
+    const excl = buildExclusions(excludes);
+    const numRange = (rangeMin && rangeMax) ? ` ${rangeMin}..${rangeMax}` : '';
+ 
+    const queries = [];
+    const kwList = keywords.length ? keywords : [''];
+ 
+    kwList.forEach(kw => {
+      const base = buildBase(commodity, country, company, kw);
+      if (!base) return;
+      const b = base + excl; // base + exclusions suffix
+ 
+      // ── Core ──
+      queries.push({ label:'base query', dot:'dot-base', raw:`${b}${ft}` });
+ 
+      if (siteUrl)
+        queries.push({ label:'site filter', dot:'dot-site', raw:`${b}${site}${ft}` });
+      if (startDate)
+        queries.push({ label:'after date', dot:'dot-date', raw:`${b}${aft}${ft}` });
+      if (endDate)
+        queries.push({ label:'before date', dot:'dot-date', raw:`${b}${bef}${ft}` });
+      if (startDate && endDate)
+        queries.push({ label:'date range', dot:'dot-date', raw:`${b}${aft}${bef}${ft}` });
+      if (siteUrl && (startDate || endDate))
+        queries.push({ label:'site + date range', dot:'dot-site', raw:`${b}${site}${aft}${bef}${ft}` });
+ 
+      // ── Operator variants ──
+      queries.push({ label:'intitle:', dot:'dot-title',
+        raw:`intitle:"${base}"${site}${aft}${bef}${ft}${excl}` });
+      queries.push({ label:'inurl:', dot:'dot-url',
+        raw:`inurl:${base.replace(/["]/g,'').replace(/\s+/g,'-')}${site}${aft}${bef}${ft}${excl}` });
+      queries.push({ label:'intext:', dot:'dot-text',
+        raw:`intext:"${base}"${site}${aft}${bef}${ft}${excl}` });
+ 
+      // ── allintext / allintitle — only when 2+ context fields ──
+      const ctxFields = [commodity, country, company].filter(Boolean);
+      if (ctxFields.length >= 2) {
+        const allTerms = ctxFields.map(quoteIfNeeded).join(' ') + (kw ? ' ' + kw : '');
+        queries.push({ label:'allintext: (strict co-occurrence)', dot:'dot-allin',
+          raw:`allintext: ${allTerms}${excl}` });
+        queries.push({ label:'allintitle: (strict co-occurrence)', dot:'dot-allin',
+          raw:`allintitle: ${allTerms}${excl}` });
+      }
+ 
+      // ── AROUND — when company present ──
+      if (company) {
+        aroundPairs.forEach(pair => {
+          queries.push({ label:`AROUND(5) — "${pair}"`, dot:'dot-around',
+            raw:`"${company}" AROUND(5) "${pair}"${site}${aft}${bef}${ft}${excl}` });
+          queries.push({ label:`AROUND(10) — "${pair}"`, dot:'dot-around',
+            raw:`"${company}" AROUND(10) "${pair}"${site}${aft}${bef}${ft}${excl}` });
+        });
+      }
+ 
+      // ── OR — supply chain synonym boilerplate ──
+      queries.push({ label:'OR — supplier / vendor / subcontractor', dot:'dot-or',
+        raw:`${base} (supplier OR vendor OR subcontractor)${site}${aft}${bef}${ft}${excl}` });
+      queries.push({ label:'OR — forced labor synonyms', dot:'dot-or',
+        raw:`${base} ("forced labor" OR "forced labour" OR "modern slavery" OR "human trafficking")${site}${aft}${bef}${ft}${excl}` });
+      queries.push({ label:'OR — audit / report / disclosure', dot:'dot-or',
+        raw:`${base} (audit OR inspection OR assessment OR disclosure)${site}${aft}${bef}${ft}${excl}` });
+ 
+      // ── Agency site: queries ──
+      agencies.forEach(agency => {
+        const domain = resolveAgencyDomain(agency) || agency.toLowerCase().replace(/\s+/g,'') + '.org';
+        queries.push({ label:`agency — ${agency}  →  site:${domain}`, dot:'dot-agency',
+          raw:`${b} site:${domain}${ft}` });
+      });
+ 
+      // ── Document type queries ──
+      docTypes.forEach(dt => {
+        queries.push({ label:`doc / intitle: — "${dt}"`, dot:'dot-doctype',
+          raw:`${b} intitle:"${dt}"${site}${aft}${bef}${ft}` });
+        queries.push({ label:`doc / intext: — "${dt}"`, dot:'dot-doctype',
+          raw:`${b} intext:"${dt}"${site}${aft}${bef}${ft}` });
+        queries.push({ label:`doc / wildcard — "* ${dt}"`, dot:'dot-wildcard',
+          raw:`${b} "* ${dt}"${site}${aft}${bef}${ft}` });
+        queries.push({ label:`doc / wildcard — "${dt} *"`, dot:'dot-wildcard',
+          raw:`${b} "${dt} *"${site}${aft}${bef}${ft}` });
+      });
+ 
+      // ── Number range ──
+      if (rangeMin && rangeMax) {
+        queries.push({ label:`number range — ${rangeMin}..${rangeMax}`, dot:'dot-range',
+          raw:`${b}${numRange}${site}${aft}${bef}${ft}` });
+        if (fileType !== 'pdf')
+          queries.push({ label:`number range + PDF`, dot:'dot-range',
+            raw:`${b}${numRange}${site}${aft}${bef} filetype:pdf` });
+      }
+    });
+ 
+    if (!queries.length) {
+      list.innerHTML = '<p class="empty-notice">Nothing to generate — try adding keywords or investigation context.</p>';
+      showResults(); return;
+    }
+ 
+    document.getElementById('results-count').innerHTML =
+      `<strong>${queries.length}</strong> queries generated`;
+    queries.forEach((q,i) => list.appendChild(makeItem(q,i)));
+    showResults();
+  }
+ 
+  function showResults() {
+    const sec = document.getElementById('results-section');
+    sec.style.display = 'block';
+    sec.style.animation = 'none'; void sec.offsetWidth;
+    sec.style.animation = 'fadeUp .4s ease both';
+    sec.scrollIntoView({ behavior:'smooth', block:'start' });
+  }
+ 
+  function makeItem(q, idx) {
+    const wrap = document.createElement('div');
+    wrap.className = 'result-item';
+    const rawJson = JSON.stringify(q.raw);
+    wrap.innerHTML = `
+      <div class="result-label">
+        <span class="dot ${q.dot}"></span>${esc(q.label)}
+      </div>
+      <div class="result-box">
+        <div class="result-query">${highlight(q.raw)}</div>
+        <div class="btn-row">
+          <button class="btn-copy" id="cb-${idx}" onclick="doCopy(${idx},${esc(rawJson)})">COPY</button>
+          <button class="btn-open" onclick="doOpen(${esc(rawJson)})">OPEN ↗</button>
+        </div>
+      </div>`;
+    return wrap;
+  }
+ 
+  function highlight(raw) {
+    return esc(raw)
+      .replace(/(allintext:|allintitle:|intitle:|inurl:|intext:|filetype:|site:|before:|after:)/g,
+               '<span class="hl-op">$1</span>')
+      .replace(/\bAROUND\(\d+\)/g,
+               m => '<span class="hl-around">'+m+'</span>')
+      .replace(/\b(OR)\b/g,
+               '<span class="hl-or">OR</span>')
+      .replace(/(^| )(-\S+)/g,
+               (m,sp,term) => sp+'<span class="hl-excl">'+term+'</span>');
+  }
+ 
+  function doCopy(idx, raw) {
+    const btn = document.getElementById('cb-'+idx);
+    function onSuccess() {
+      btn.textContent = 'COPIED ✓'; btn.classList.add('copied');
+      setTimeout(() => { btn.textContent = 'COPY'; btn.classList.remove('copied'); }, 1800);
+    }
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(raw).then(onSuccess).catch(() => fallbackCopy(raw, onSuccess));
+    } else {
+      fallbackCopy(raw, onSuccess);
+    }
+  }
+ 
+  function fallbackCopy(text, onSuccess) {
+    const ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.cssText = 'position:fixed;top:-9999px;left:-9999px;opacity:0';
+    document.body.appendChild(ta);
+    ta.focus(); ta.select();
+    try { document.execCommand('copy'); if (onSuccess) onSuccess(); }
+    catch(e) { alert('Copy failed — please copy manually:\n\n' + text); }
+    document.body.removeChild(ta);
+  }
+ 
+  function doOpen(raw) {
+    const url = 'https://www.google.com/search?q=' + encodeURIComponent(raw);
+    const a = document.createElement('a');
+    a.href = url;
+    a.target = '_blank';
+    a.rel = 'noopener noreferrer';
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+  }
+ 
+  function esc(s) {
+    return String(s)
+      .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+</script>
+</body>
+</html>
