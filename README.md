@@ -1,6 +1,7 @@
-<nav class="site-nav" markdown="0">
+<nav class="site-nav">
   <a href="{{ site.baseurl }}/" class="active">Clips</a>
   <a href="{{ site.baseurl }}/media.html">Multimedia</a>
+  <a href="{{ site.baseurl }}/special-projects.html">Special Projects</a>
 </nav>
 
 - [Grantee Investigates the Bitter Side of the Cocoa Market in Africa](https://pulitzercenter.org/blog/behind-story-grantee-investigates-bitter-side-cocoa-market-africa) – Pulitzer Center
