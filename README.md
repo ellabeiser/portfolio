@@ -3,7 +3,6 @@
   <a href="{{ site.baseurl }}/media.html">Media</a>
 </nav>
 
-## Professional Clips
 - [Grantee Investigates the Bitter Side of the Cocoa Market in Africa](https://pulitzercenter.org/blog/behind-story-grantee-investigates-bitter-side-cocoa-market-africa) – Pulitzer Center
 - [Webinar On-Demand: 'Reporting Iran: Hopes, Fears, and What Happens When the Bombing Campaign Ends'](https://pulitzercenter.org/blog/webinar-demand-reporting-iran-hopes-fears-and-what-happens-when-bombing-campaign-ends) – Pulitzer Center
 - [Mineradora investigada por contaminação no AM abasteceu Toyota e fornecedor da Tesla](https://reporterbrasil.org.br/2026/03/mineradora-investigada-contaminacao-am-abasteceu-toyota-fornecedor-tesla/) – Repórter Brasil ![Research Support & OSINT](https://img.shields.io/badge/Research_Support_&_OSINT-pink)
